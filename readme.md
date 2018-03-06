@@ -1,13 +1,11 @@
-![Logo](https://user-images.githubusercontent.com/5032954/37063932-fdbe8a86-214f-11e8-8d31-182da2e24dc5.png)
+![UW Advancement Wordmark](https://user-images.githubusercontent.com/5032954/37064651-a6152256-2152-11e8-8e3a-950b7ff18332.png)
 
 # UWMarketo
 > Custom Templates for the University of Washington Advancement Marketo System
 
-A brief description of your project, what it is used for and how does life get
-awesome when someone starts to use it.
-
 ## Installing / Getting started
 
+<!-- TODO -->
 Instructions for copying and pasting into Marketo Design Studio
 
 ## Developing
@@ -30,7 +28,7 @@ Why should you use our templates?
 
 ## Contributing
 
-"We all rise together if you help, and there is not a central team pushing updates to this code. Pull requests are warmly welcome."
+We all rise together if you help, and there is not a central team pushing updates to this code. Pull requests are warmly welcome.
 
 
 ## Links
