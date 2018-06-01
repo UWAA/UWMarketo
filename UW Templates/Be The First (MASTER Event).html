@@ -16,7 +16,7 @@
         <meta class="mktoString" id="footerCenterLinkURL" mktoname="Center Link URL" default="#ADDLINK" mktomodulescope="true">
         <meta class="mktoString" id="footerRightLinkText" mktoname="Right Link Text" default="Optional Link" mktomodulescope="true">
         <meta class="mktoString" id="footerRightLinkURL" mktoname="Right Link URL" default="#ADDLINK" mktomodulescope="true">
-       	<meta class="mktoString" id="contactUsEmail" mktoName="Contact Us Email" default="ADD EMAIL" mktomodulescope="true">
+        <meta class="mktoString" id="contactUsEmail" mktoName="Contact Us Email" default="ADD EMAIL" mktomodulescope="true">
         <!--END OF MARKETO VARIABLES--> 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -36,6 +36,10 @@
                 .text {
                     font-family: 'Open Sans', Arial, sans-serif !important;
                 }
+                a:visited{
+                    color: inherit;
+                }
+                
             </style>
         <![endif]-->
         <!--[if (mso 12)|(mso 14)|(mso 15)|(mso 16)]>
@@ -45,6 +49,7 @@
                 }
             </style>
         <![endif]-->
+      
         
         <style>  
          /*import open sans from google fonts */   
@@ -108,10 +113,10 @@
               
             }
             a:hover {
-              	color: #716441;
+                color: #716441;
             }
             
-      		*:focus {
+            *:focus {
                   border: 1px solid #78aed9 !important;
                   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 233, 0.6) !important;
                   outline: 0 none !important;
@@ -213,7 +218,7 @@
             }
             
             .grey-bar-footer a:hover, .anti-spam-row a:hover, .anti-spam-row-purple a:hover {
-            	border-bottom: 1px solid #BDBDBD;
+                border-bottom: 1px solid #BDBDBD;
             }
             
             .anti-spam-row-purple td {
@@ -336,8 +341,8 @@
                             <tr>
                                 <td valign="top">
                                     <!--HEADER SNIPPET PLACEHOLDER-->
-                    				<div class="mktoSnippet" id="uwHeader" mktoName="UW Header"  mktoDefaultSnippetId="12"></div>
-            						<!--END HEADER SNIPPET PLACEHOLDER-->  
+                                    <div class="mktoSnippet" id="uwHeader" mktoName="UW Header"  mktoDefaultSnippetId="12"></div>
+                                    <!--END HEADER SNIPPET PLACEHOLDER-->  
                                 </td>
                             </tr>
                         </table>
@@ -415,7 +420,7 @@
                      <!--FULL WIDTH IMAGE -->
                      <table border="0" cellspacing="0" cellpadding="0" width="100%" class="mktoModule" id="fullWidthImg" mktoName="Full Width Image" role="presentation">
                         <tr>
-                            <td align="center" valign="top" style="background-color: #ffffff;">
+                            <td align="center" valign="top" style="background-color: #ffffff;padding-top: 15px;">
                               <img src="http://explore.uw.edu/rs/131-AQO-225/images/ImagePlaceholder_600x200.jpg" alt="Enter a short text version of your image, for people who are unable to see it" width="600" class="mktoImg" id="fullWidthImage" mktoName="Image" mktoLockImgStyle="true" style="color: #444444; display: block; font-family: 'Open Sans', arial, sans-serif; font-weight: 600; font-size: 14px; height: auto; line-height: 1.2; width: 100% !important; text-align: center; text-transform: uppercase; vertical-align: middle;"/>
                             </td>
                         </tr>
@@ -438,8 +443,8 @@
                 <table border="0" cellpadding="0" cellspacing="0" width="100%" class="white-background mktoModule" id="twoColumnWhiteBackgroundCTA" mktoName="2 Column Block">
                     <tr>
                         <!--IMAGE COLUMN-->
-                        <td align="center" class="column-2 stack-column image-column" style="width: 50%; background-color: #ffffff;">
-                            <img src="http://explore.uw.edu/rs/131-AQO-225/images/ImagePlaceholder_300x250.jpg" alt="Enter a short text version of your image, for people who are unable to see it" width="300" style="display: block; color: #444444; width: 100% !important; font-family: 'Open Sans', arial, sans-serif; font-weight: 600; font-size: 14px; height: auto; line-height: 1.2; text-align: center; text-transform: uppercase; vertical-align: middle;" class="mktoImg" id="colImgW" mktoName="Column Image" mktoLockImgStyle="true" role="presentation"/>
+                        <td valign="top" align="center" class="column-2 stack-column image-column" style="width: 50%; background-color: #ffffff;">
+                            <img src="https://explore.uw.edu/rs/131-AQO-225/images/CherryBlossoms.jpg" alt="Enter a short text version of your image, for people who are unable to see it" width="300" style="display: block; color: #444444; width: 100% !important; font-family: 'Open Sans', arial, sans-serif; font-weight: 600; font-size: 14px; height: auto; line-height: 1.2; text-align: center; text-transform: uppercase; vertical-align: middle;" class="mktoImg" id="colImgW" mktoName="Column Image" mktoLockImgStyle="true" role="presentation"/>
                         </td>
                         <!--END IMAGE COLUMN-->
  
@@ -451,7 +456,7 @@
                                 <tr>
                                     <td class="text body-copy" style="color: #3d3d3d; font-family: 'Open Sans', arial, sans-serif; font-size: 13px; font-weight: 400; line-height: 22px; text-align: left; padding: 15px 20px 15px 20px; vertical-align: top;">
                                         <div class="mktoText" id="colParagraphW" mktoName="Paragraph">
-                                            Mus es eipcipit atisquis aliassimo maximpe venis ea eosae occulpari odit volum inissum conem latum. Mus es eipcipit atisquis aliassimo maximpe. Tus es eipcipit atisquis aliassimo  ea eosae occulpari odit volum inissum conem et. <a class="text" href="#ADDLINK">Need a link? Copy and paste me.</a>
+                                            Add body copy here. The image should be sized at 600 x 500. On desktop it will show as 300 x 250 but it will be full-width in mobile view. Tus es eipcipit atisquis aliassimo  ea eosae occulpari odit volum inissum conem et. <a class="text" href="#ADDLINK">Need a link? Copy and paste me.</a>
                                         </div>
                                     </td>
                                 </tr>
@@ -477,8 +482,8 @@
                 <table border="0" cellpadding="0" cellspacing="0" width="100%" class="purple-background mktoModule" id="twoColumnPurpleBackgroundCTA" mktoName="2 Column Block - Purple">
                     <tr>
                         <!--IMAGE COLUMN-->
-                        <td align="center" class="column-2 stack-column image-column" style="width: 50%; background-color: #4b2e83;">
-                            <img src="http://explore.uw.edu/rs/131-AQO-225/images/ImagePlaceholder_300x250.jpg" alt="Enter a short text version of your image, for people who are unable to see it" width="300" style="display: block; color: #FFFFFF; width: 100% !important; font-family: 'Open Sans', arial, sans-serif; font-weight: 600; font-size: 14px; height: auto; line-height: 1.2; text-align: center; text-transform: uppercase; vertical-align: middle;" class="mktoImg" id="colImgP" mktoName="Column Image" mktoLockImgStyle="true" role="presentation"/>
+                        <td valign="top" align="center" class="column-2 stack-column image-column" style="width:50%;background-color:#4b2e83;vertical-align:top;">
+                            <img src="https://explore.uw.edu/rs/131-AQO-225/images/CherryBlossoms.jpg" alt="Enter a short text version of your image, for people who are unable to see it" width="300" style="display: block; color: #FFFFFF; width: 100% !important; font-family: 'Open Sans', arial, sans-serif; font-weight: 600; font-size: 14px; height: auto; line-height: 1.2; text-align: center; text-transform: uppercase; vertical-align: middle;" class="mktoImg" id="colImgP" mktoName="Column Image" mktoLockImgStyle="true" role="presentation"/>
                         </td>
                         <!--END IMAGE COLUMN-->
  
@@ -490,7 +495,9 @@
                                 <tr>
                                     <td class="text body-copy" style="color: #ffffff; font-family: 'Open Sans', arial, sans-serif; font-size: 13px; font-weight: 400; line-height: 22px; text-align: left; padding: 15px 20px 15px 20px; vertical-align: top;">
                                         <div class="mktoText" id="colParagraphP" mktoName="Paragraph">
-                                            Mus es eipcipit atisquis aliassimo maximpe venis ea eosae occulpari odit volum inissum conem latum. Mus es eipcipit atisquis aliassimo maximpe. Tus es eipcipit atisquis aliassimo  ea eosae occulpari odit volum inissum conem et. <a class="text apple-link-white" href="#ADDLINK" style="color: #FFFFFF;">Need a link? Copy and paste me.</a></div>
+                                         Add body copy here. The image should be sized at 600 x 500. On desktop it will show as 300 x 250 but it will be full-width in mobile view. Tus es eipcipit atisquis aliassimo  ea eosae occulpari odit volum inissum conem et.
+                                        <a class="text apple-link-white" href="#ADDLINK" style="color: #FFFFFF;">Need a link? Copy and paste me.</a>
+                                      </div>
                                     </td>
                                 </tr>
                             </table>
@@ -509,6 +516,7 @@
                                     <div class="mktoText" id="bodyPurpleSubhead" mktoName="Purple Subhead" role="heading" aria-level="3">
                                         Muses eicipit atisquis
                                     </div>
+                                  <!--[if gte mso 12]><p style="font-size:12px;line-height:12px;>&nbsp;</p><![endif]-->
                                 </td>
                             </tr>
                         </table>
@@ -516,10 +524,11 @@
                         <!--END BODY COPY, FULL WIDTH, WHITE BACKGROUND-->
 
                         <!--BODY COPY ROW-->
-                        <table border="0" cellpadding="0" cellspacing="0" width="100%" class="mktoModule" id="bodyCopyParagraph" mktoName="Body Paragraph" role="presentation">
+                        <table colspan="3" border="0" cellpadding="0" cellspacing="0" width="100%" class="mktoModule" id="bodyCopyParagraph" mktoName="Body Paragraph" role="presentation">
                             <tr>
                                 <td class="text body-copy" style="background-color: #ffffff; color: #3d3d3d; font-family: 'Open Sans', arial, sans-serif; font-size: 13px; font-weight: 400; line-height: 22px; text-align: left; vertical-align: top; padding: 5px 15px 5px 15px;"><div class="mktoText" id="bodyParagraph" mktoName="Paragraph"><strong>Aliassimo maximpe venis</strong> aliassimo maximpe venis ea eosae occulpi qui archicid ut id ex etur as ex et fugiatio vereptatur, sus estius, suntiat perios doluptat ut quam eos naturiberia. <a class="text" href="#ADDLINK">Need a link? Copy and paste me.</a></div>
-                                </td>
+                              <!--[if gte mso 12]><p style="font-size:12px;line-height:12px;>&nbsp;</p><![endif]--> 
+                              </td>
                             </tr>
                         </table>
                         <!--BODY COPY ROW-->
@@ -538,6 +547,7 @@
                                         </ul>
                                         <!-- BULLETED LIST ENDS HERE -->
                                     </div>
+                                  <!--[if gte mso 12]><p style="font-size:12px;line-height:12px;>&nbsp;</p><![endif]-->
                                 </td>
                             </tr>
                         </table>
@@ -566,7 +576,7 @@
                         <!--END CTA BUTTON - WHITE BACKGROUND-->
                          
                          <!--BODY COPY, FULL WIDTH, PURPLE BACKGROUND-->
-                        <table border="0" cellspacing="0" cellpadding="0" width="100%" class="purple-background mktoModule" id="bodyCopyPurple" mktoName="Body Paragraph - Purple" role="presentation">
+                        <table colspan="3" border="0" cellspacing="0" cellpadding="0" width="100%" class="purple-background mktoModule" id="bodyCopyPurple" mktoName="Body Paragraph - Purple" role="presentation">
                             <tr>
                                 <td align="left" valign="top" class="text body-copy" style="background-color: #4b2e84; color: #FFFFFF; font-family: 'Open Sans', arial, sans-serif; font-size: 13px; font-weight: 400; line-height: 22px; padding: 10px 15px 10px 15px;text-align: left;  vertical-align: top;">
                                 <div class="mktoText" id="bodyCopyParagraphPurple" mktoName="Body Paragraph">
@@ -603,7 +613,7 @@
                         <table border="0" cellspacing="0" cellpadding="0" width="100%" class="cool-grey-background grey-bar-footer mktoModule" id="footerLinkRow" mktoName="Link Row" role="presentation">
                             <tr>
                                 <!--UW HOME FOOTER LINK-->
-                                <td align="center" valign="top" class="text stack-column column-3" style="background-color: #6f7376; padding: 4px 0; font-family:'Open Sans', arial, sans-serif; font-weight: 600; letter-spacing: 1.2; font-size: 11px; line-height: 1.2; text-align: center; text-transform: uppercase; vertical-align: middle; width: 33.33%;">
+                                <td align="center" valign="top" vlink="#e8e3d3" class="text stack-column column-3" style="background-color: #6f7376; padding: 4px 0; font-family:'Open Sans', arial, sans-serif; font-weight: 600; letter-spacing: 1.2; font-size: 11px; line-height: 1.2; text-align: center; text-transform: uppercase; vertical-align: middle; width: 33.33%;">
                                     <a href="${footerLeftLinkURL}" class="apple-link-white" style="color: #ffffff; text-decoration: none;">${footerLeftLinkText}</a> 
                                 </td>
 
@@ -641,36 +651,37 @@
                 <tr>
                     <td align="center" valign="top" class="text" style="background-color: #ffffff; font-family: 'Open Sans', arial, sans-serif; font-weight: 400; font-size: 13px; line-height: 1.2; text-align: center; color: #3d3d3d; vertical-align: middle; padding: 10px 0 10px 0;">
                         <div class="mktoText" id="socialMediaIcons" mktoName="Social Media Icons">
-                             <a href="#ADDLINK" style="text-decoration: none;">
-                            <img src="http://www.washington.edu/marketo/facebook-icon-grey.png" alt="Facebook" style="color: #444444; display: inline-block; font-family: 'Open Sans', arial, sans-serif; font-size: 9px; font-weight: 600; text-align: center; text-transform: uppercase; vertical-align: middle; width: auto; padding-bottom: 5px;"/></a>
+                        <a href="#ADDLINK" style="text-decoration: none;">
+                            <img src="https://explore.uw.edu/rs/131-AQO-225/images/facebook-GREY.png" alt="Facebook" style="color: #FFFFFF; display: inline-block; font-family: 'Open Sans', arial, sans-serif; font-size: 9px; font-weight: 600; text-align: center; text-transform: uppercase; vertical-align: middle; width: auto; padding-bottom: 5px;"/></a>
                         &nbsp;&nbsp;
                         <a href="#ADDLINK" style="text-decoration: none;">
-                            <img src="http://www.washington.edu/marketo/twitter-icon-grey.png" alt="Twitter" style="color: #444444; display: inline-block; font-family: 'Open Sans', arial, sans-serif; font-size: 9px; font-weight: 600; text-align: center; text-transform: uppercase; vertical-align: middle; width: auto; padding-bottom: 5px;"/></a>
+                            <img src="https://explore.uw.edu/rs/131-AQO-225/images/twitter-GREY.png" alt="Twitter" style="color: #FFFFFF; display: inline-block; font-family: 'Open Sans', arial, sans-serif; font-size: 9px; font-weight: 600; text-align: center; text-transform: uppercase; vertical-align: middle; width: auto; padding-bottom: 5px;"/></a>
                         &nbsp;&nbsp;
                         <a href="#ADDLINK" style="text-decoration: none;">
-                            <img src="http://www.washington.edu/marketo/instagram-icon-grey.png" alt="Instagram" style="color: #444444; display: inline-block; font-family: 'Open Sans', arial, sans-serif; font-size: 9px; font-weight: 600; text-align: center; text-transform: uppercase; vertical-align: middle; width: auto; padding-bottom: 5px;"/></a>
+                            <img src="https://explore.uw.edu/rs/131-AQO-225/images/instagram-GREY.png" alt="Instagram" style="color: #FFFFFF; display: inline-block; font-family: 'Open Sans', arial, sans-serif; font-size: 9px; font-weight: 600; text-align: center; text-transform: uppercase; vertical-align: middle; width: auto; padding-bottom: 5px;"/></a>
                         &nbsp;&nbsp;
                         <a href="#ADDLINK" style="text-decoration: none;">
-                            <img src="http://www.washington.edu/marketo/youtube-icon-grey.png" alt="YouTube" style="color: #444444; display: inline-block; font-family: 'Open Sans', arial, sans-serif; font-size: 9px; font-weight: 600; text-align: center; text-transform: uppercase; vertical-align: middle; width: auto; padding-bottom: 5px;"/></a>
+                            <img src="https://explore.uw.edu/rs/131-AQO-225/images/youtube-GREY.png" alt="YouTube" style="color: #FFFFFF; display: inline-block; font-family: 'Open Sans', arial, sans-serif; font-size: 9px; font-weight: 600; text-align: center; text-transform: uppercase; vertical-align: middle; width: auto; padding-bottom: 5px;"/></a>
                         &nbsp;&nbsp;
                         <a href="#ADDLINK" style="text-decoration: none;">
-                            <img src="http://www.washington.edu/marketo/linkedin-icon-grey.png" alt="LinkedIn" style="color: #444444; display: inline-block; font-family: 'Open Sans', arial, sans-serif; font-size: 9px; font-weight: 600; text-align: center; text-transform: uppercase; vertical-align: middle; width: auto; padding-bottom: 5px;"/></a>
+                            <img src="https://explore.uw.edu/rs/131-AQO-225/images/linkedin-GREY.png" alt="LinkedIn" style="color: #FFFFFF; display: inline-block; font-family: 'Open Sans', arial, sans-serif; font-size: 9px; font-weight: 600; text-align: center; text-transform: uppercase; vertical-align: middle; width: auto; padding-bottom: 5px;"/></a>
                         &nbsp;&nbsp;
                         <a href="#ADDLINK" style="text-decoration: none;">
-                            <img src="http://www.washington.edu/marketo/pinterest-icon-grey.jpg" alt="Pinterest" style="color: #444444; display: inline-block; font-family: 'Open Sans', arial, sans-serif; font-size: 9px; font-weight: 600; text-align: center; text-transform: uppercase; vertical-align: middle; width: auto; padding-bottom: 5px;"/></a>
+                            <img src="https://explore.uw.edu/rs/131-AQO-225/images/pinterest-GREY.png" alt="Pinterest" style="color: #FFFFFF; display: inline-block; font-family: 'Open Sans', arial, sans-serif; font-size: 9px; font-weight: 600; text-align: center; text-transform: uppercase; vertical-align: middle; width: auto; padding-bottom: 5px;"/></a>
                         &nbsp;&nbsp;
                         <a href="#ADDLINK" style="text-decoration: none;">
-                            <img src="http://www.washington.edu/marketo/google+-icon-grey.png" alt="Google+" style="color: #444444; display: inline-block; font-family: 'Open Sans', arial, sans-serif; font-size: 9px; font-weight: 600; text-align: center; text-transform: uppercase; vertical-align: middle; width: auto; padding-bottom: 5px;"/></a>
-                         &nbsp;&nbsp;
+                            <img src="https://explore.uw.edu/rs/131-AQO-225/images/google-GREY.png" alt="Google+" style="color: #FFFFFF; display: inline-block; font-family: 'Open Sans', arial, sans-serif; font-size: 9px; font-weight: 600; text-align: center; text-transform: uppercase; vertical-align: middle; width: auto; padding-bottom: 5px;"/></a>
+                        &nbsp;&nbsp;
                         <a href="#ADDLINK" style="text-decoration: none;">
-                            <img src="http://www.washington.edu/marketo/vimeo-icon-grey.png" alt="Vimeo" style="color: #444444; display: inline-block; font-family: 'Open Sans', arial, sans-serif; font-size: 9px; font-weight: 600; text-align: center; text-transform: uppercase; vertical-align: middle; width: auto; padding-bottom: 5px;"/></a>
-                         &nbsp;&nbsp;
+                            <img src="https://explore.uw.edu/rs/131-AQO-225/images/vimeo-GREY.png" alt="Vimeo" style="color: #FFFFFF; display: inline-block; font-family: 'Open Sans', arial, sans-serif; font-size: 9px; font-weight: 600; text-align: center; text-transform: uppercase; vertical-align: middle; width: auto; padding-bottom: 5px;"/></a>
+                        &nbsp;&nbsp;
                         <a href="#ADDLINK" style="text-decoration: none;">
-                            <img src="http://www.washington.edu/marketo/snapchat-icon-grey.png" alt="Snapchat" style="color: #444444; display: inline-block; font-family: 'Open Sans', arial, sans-serif; font-size: 9px; font-weight: 600; text-align: center; text-transform: uppercase; vertical-align: middle; width: auto; padding-bottom: 5px;"/></a>
-                         &nbsp;&nbsp;
+                            <img src="https://explore.uw.edu/rs/131-AQO-225/images/snapchat-GREY.png" alt="Snapchat" style="color: #FFFFFF; display: inline-block; font-family: 'Open Sans', arial, sans-serif; font-size: 9px; font-weight: 600; text-align: center; text-transform: uppercase; vertical-align: middle; width: auto; padding-bottom: 5px;"/></a>
+                        &nbsp;&nbsp;
                         <a href="#ADDLINK" style="text-decoration: none;">
-                            <img src="http://www.washington.edu/marketo/tumblr-icon-grey.png" alt="Tumblr" style="color: #444444; display: inline-block; font-family: 'Open Sans', arial, sans-serif; font-size: 9px; font-weight: 600; text-align: center; text-transform: uppercase; vertical-align: middle; width: auto; padding-bottom: 5px;"/></a>
-                        </div>
+                            <img src="https://explore.uw.edu/rs/131-AQO-225/images/tumblr-GREY.png" alt="Tumblr" style="color: #FFFFFF; display: inline-block; font-family: 'Open Sans', arial, sans-serif; font-size: 9px; font-weight: 600; text-align: center; text-transform: uppercase; vertical-align: middle; width: auto; padding-bottom: 5px;"/></a>
+                       </div>
+                      <!--[if gte mso 12]><p style="font-size:12px;line-height:12px;>&nbsp;</p><![endif]-->
                     </td>
                 </tr>
             </table>
@@ -692,7 +703,7 @@
             <table border="0" cellspacing="0" cellpadding="0" width="100%" class="anti-spam-row white-background mktoModule" id="copyrightRow" mktoName="Copyright & Address Footer" role="presentation">
                 <tr>
                     <td align="center" valign="top" class="text apple-link-grey" style=" background-color: #ffffff; padding: 5px 15px 10px 15px; font-family: 'Open Sans', arial, sans-serif; font-weight: 400; font-size: 9px; line-height: 2.0; text-align: center; text-transform: none; color: #3d3d3d; -ms-text-size-adjust: none; -webkit-text-size-adjust: none;">
-                    <div class="mktoText" id="copyrightAndAddress" mktoName="Copyright & Address">&copy; 2017 Unit Name and address go here.</div>
+                    <div class="mktoText" id="copyrightAndAddress" mktoName="Copyright & Address">&copy; 2018 Unit Name and address go here.</div>
                     </td>
                 </tr>
             </table>
@@ -728,36 +739,37 @@
                 <tr>
                     <td align="center" valign="top" class="text" style="background-color: #4b2e83; font-family: 'Open Sans', arial, sans-serif; font-weight: 400; font-size: 13px; line-height: 1.2; text-align: center; color: #3d3d3d; vertical-align: middle; padding: 10px 0 10px 0;">
                         <div class="mktoText" id="socialMediaIconsP" mktoName="Social Media Icons">
-                             <a href="#ADDLINK" style="text-decoration: none;">
-                            <img src="http://www.washington.edu/marketo/facebook-icon-white.png" alt="Facebook" style="color: #FFFFFF; display: inline-block; font-family: 'Open Sans', arial, sans-serif; font-size: 9px; font-weight: 600; text-align: center; text-transform: uppercase; vertical-align: middle; width: auto; padding-bottom: 5px;"/></a>
+                         <a href="#ADDLINK" style="text-decoration: none;">
+                            <img src="https://explore.uw.edu/rs/131-AQO-225/images/facebook-WHITE.png" alt="Facebook" style="color: #FFFFFF; display: inline-block; font-family: 'Open Sans', arial, sans-serif; font-size: 9px; font-weight: 600; text-align: center; text-transform: uppercase; vertical-align: middle; width: auto; padding-bottom: 5px;"/></a>
                         &nbsp;&nbsp;
                         <a href="#ADDLINK" style="text-decoration: none;">
-                            <img src="http://www.washington.edu/marketo/twitter-icon-white.png" alt="Twitter" style="color: #FFFFFF; display: inline-block; font-family: 'Open Sans', arial, sans-serif; font-size: 9px; font-weight: 600; text-align: center; text-transform: uppercase; vertical-align: middle; width: auto; padding-bottom: 5px;"/></a>
+                            <img src="https://explore.uw.edu/rs/131-AQO-225/images/twitter-WHITE.png" alt="Twitter" style="color: #FFFFFF; display: inline-block; font-family: 'Open Sans', arial, sans-serif; font-size: 9px; font-weight: 600; text-align: center; text-transform: uppercase; vertical-align: middle; width: auto; padding-bottom: 5px;"/></a>
                         &nbsp;&nbsp;
                         <a href="#ADDLINK" style="text-decoration: none;">
-                            <img src="http://www.washington.edu/marketo/instagram-icon-white.png" alt="Instagram" style="color: #FFFFFF; display: inline-block; font-family: 'Open Sans', arial, sans-serif; font-size: 9px; font-weight: 600; text-align: center; text-transform: uppercase; vertical-align: middle; width: auto; padding-bottom: 5px;"/></a>
+                            <img src="https://explore.uw.edu/rs/131-AQO-225/images/instagram-WHITE.png" alt="Instagram" style="color: #FFFFFF; display: inline-block; font-family: 'Open Sans', arial, sans-serif; font-size: 9px; font-weight: 600; text-align: center; text-transform: uppercase; vertical-align: middle; width: auto; padding-bottom: 5px;"/></a>
                         &nbsp;&nbsp;
                         <a href="#ADDLINK" style="text-decoration: none;">
-                            <img src="http://www.washington.edu/marketo/youtube-icon-white.png" alt="YouTube" style="color: #FFFFFF; display: inline-block; font-family: 'Open Sans', arial, sans-serif; font-size: 9px; font-weight: 600; text-align: center; text-transform: uppercase; vertical-align: middle; width: auto; padding-bottom: 5px;"/></a>
+                            <img src="https://explore.uw.edu/rs/131-AQO-225/images/youtube-WHITE.png" alt="YouTube" style="color: #FFFFFF; display: inline-block; font-family: 'Open Sans', arial, sans-serif; font-size: 9px; font-weight: 600; text-align: center; text-transform: uppercase; vertical-align: middle; width: auto; padding-bottom: 5px;"/></a>
                         &nbsp;&nbsp;
                         <a href="#ADDLINK" style="text-decoration: none;">
-                            <img src="http://www.washington.edu/marketo/linkedin-icon-white.png" alt="LinkedIn" style="color: #FFFFFF; display: inline-block; font-family: 'Open Sans', arial, sans-serif; font-size: 9px; font-weight: 600; text-align: center; text-transform: uppercase; vertical-align: middle; width: auto; padding-bottom: 5px;"/></a>
+                            <img src="https://explore.uw.edu/rs/131-AQO-225/images/linkedin-WHITE.png" alt="LinkedIn" style="color: #FFFFFF; display: inline-block; font-family: 'Open Sans', arial, sans-serif; font-size: 9px; font-weight: 600; text-align: center; text-transform: uppercase; vertical-align: middle; width: auto; padding-bottom: 5px;"/></a>
                         &nbsp;&nbsp;
                         <a href="#ADDLINK" style="text-decoration: none;">
-                            <img src="http://www.washington.edu/marketo/pinterest-icon-white.png" alt="Pinterest" style="color: #FFFFFF; display: inline-block; font-family: 'Open Sans', arial, sans-serif; font-size: 9px; font-weight: 600; text-align: center; text-transform: uppercase; vertical-align: middle; width: auto; padding-bottom: 5px;"/></a>
+                            <img src="https://explore.uw.edu/rs/131-AQO-225/images/pinterest-WHITE.png" alt="Pinterest" style="color: #FFFFFF; display: inline-block; font-family: 'Open Sans', arial, sans-serif; font-size: 9px; font-weight: 600; text-align: center; text-transform: uppercase; vertical-align: middle; width: auto; padding-bottom: 5px;"/></a>
                         &nbsp;&nbsp;
                         <a href="#ADDLINK" style="text-decoration: none;">
-                            <img src="http://www.washington.edu/marketo/google+-icon-white.png" alt="Google+" style="color: #FFFFFF; display: inline-block; font-family: 'Open Sans', arial, sans-serif; font-size: 9px; font-weight: 600; text-align: center; text-transform: uppercase; vertical-align: middle; width: auto; padding-bottom: 5px;"/></a>
+                            <img src="https://explore.uw.edu/rs/131-AQO-225/images/google-WHITE.png" alt="Google+" style="color: #FFFFFF; display: inline-block; font-family: 'Open Sans', arial, sans-serif; font-size: 9px; font-weight: 600; text-align: center; text-transform: uppercase; vertical-align: middle; width: auto; padding-bottom: 5px;"/></a>
                         &nbsp;&nbsp;
                         <a href="#ADDLINK" style="text-decoration: none;">
-                            <img src="http://www.washington.edu/marketo/vimeo-icon-white.png" alt="Vimeo" style="color: #FFFFFF; display: inline-block; font-family: 'Open Sans', arial, sans-serif; font-size: 9px; font-weight: 600; text-align: center; text-transform: uppercase; vertical-align: middle; width: auto; padding-bottom: 5px;"/></a>
+                            <img src="https://explore.uw.edu/rs/131-AQO-225/images/vemio-WHITE.png" alt="Vimeo" style="color: #FFFFFF; display: inline-block; font-family: 'Open Sans', arial, sans-serif; font-size: 9px; font-weight: 600; text-align: center; text-transform: uppercase; vertical-align: middle; width: auto; padding-bottom: 5px;"/></a>
                         &nbsp;&nbsp;
                         <a href="#ADDLINK" style="text-decoration: none;">
-                            <img src="http://www.washington.edu/marketo/snapchat-icon-white.png" alt="Snapchat" style="color: #FFFFFF; display: inline-block; font-family: 'Open Sans', arial, sans-serif; font-size: 9px; font-weight: 600; text-align: center; text-transform: uppercase; vertical-align: middle; width: auto; padding-bottom: 5px;"/></a>
+                            <img src="https://explore.uw.edu/rs/131-AQO-225/images/snapchat-WHITE.png" alt="Snapchat" style="color: #FFFFFF; display: inline-block; font-family: 'Open Sans', arial, sans-serif; font-size: 9px; font-weight: 600; text-align: center; text-transform: uppercase; vertical-align: middle; width: auto; padding-bottom: 5px;"/></a>
                         &nbsp;&nbsp;
                         <a href="#ADDLINK" style="text-decoration: none;">
-                            <img src="http://www.washington.edu/marketo/tumblr-icon-white.png" alt="Tumblr" style="color: #FFFFFF; display: inline-block; font-family: 'Open Sans', arial, sans-serif; font-size: 9px; font-weight: 600; text-align: center; text-transform: uppercase; vertical-align: middle; width: auto; padding-bottom: 5px;"/></a>
+                            <img src="https://explore.uw.edu/rs/131-AQO-225/images/tumblr-WHITE.png" alt="Tumblr" style="color: #FFFFFF; display: inline-block; font-family: 'Open Sans', arial, sans-serif; font-size: 9px; font-weight: 600; text-align: center; text-transform: uppercase; vertical-align: middle; width: auto; padding-bottom: 5px;"/></a>
                         </div>
+                      <!--[if gte mso 12]><p style="font-size:12px;line-height:12px;>&nbsp;</p><![endif]-->
                     </td>
                 </tr>
             </table>
@@ -773,6 +785,7 @@
                         <a href="http://www.washington.edu/online/privacy/" class="apple-link-white" style="color: #FFFFFF; text-decoration: none;">Privacy</a>
                         &nbsp;&nbsp;|&nbsp;&nbsp;
                         <a href="http://www.washington.edu/online/terms/" class="apple-link-white" style="color: #FFFFFF; text-decoration: none;">Terms</a>
+                       <!--[if gte mso 12]><p style="font-size:12px;line-height:12px;>&nbsp;</p><![endif]-->
                     </td>
                 </tr>
             </table>
@@ -782,8 +795,9 @@
             <table border="0" cellspacing="0" cellpadding="0" width="100%" class="anti-spam-row-purple purple-background mktoModule" id="copyrightRowP" mktoName="Copyright & Address - Purple" role="presentation">
                 <tr>
                     <td align="center" valign="top" class="text apple-link-white" style=" background-color: #4b2e83; padding: 5px 15px 10px 15px; font-family: 'Open Sans', arial, sans-serif; font-weight: 400; font-size: 9px; line-height: 2.0; text-align: center; text-transform: none; color: #ffffff; -ms-text-size-adjust: none; -webkit-text-size-adjust: none;">
-                    <div class="mktoText" id="copyrightAndAddressP" mktoName="Copyright & Address">&copy; 2017 Unit Name and address go here</div>
+                    <div class="mktoText" id="copyrightAndAddressP" mktoName="Copyright & Address">&copy; 2018 Unit Name and address go here</div>
                     </td>
+                     <!--[if gte mso 12]><p style="font-size:12px;line-height:12px;>&nbsp;</p><![endif]-->
                 </tr>
             </table>
             <!--END ANTI-SPAM EMAIL SENT TO & COPYRIGHT - PURPLE BACKGROUND-->
@@ -794,7 +808,8 @@
                         This email was sent to <a href="mailto:{{lead.Email Address}}" class="apple-link-white" style="color: #ffffff; text-decoration: none;">{{lead.Email Address}}</a>
                         <br>
                         <a href="https://subscribe.gifts.washington.edu/SubscriptionManagement/Email?SubscriberToken={{lead.SubscriberToken}}&ProgramID={{program.id}}" class="apple-link-white" style="color: #ffffff; text-decoration: none;">Unsubscribe or change your email preferences</a>
-                    </td>
+                       <!--[if gte mso 12]><p style="font-size:12px;line-height:12px;>&nbsp;</p><![endif]-->  
+                  </td>
                 </tr>
             </table>
             <!--END OPT-OUT FOOTER--> 
