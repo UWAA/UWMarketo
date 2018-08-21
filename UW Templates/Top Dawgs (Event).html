@@ -102,19 +102,21 @@
 			line-height: inherit !important;
 			}
 			@media only screen and (max-width: 640px) {
-            *[class].body-copy {font-size: 14px !important; line-height: 22px !important;}
-			*[class].deviceWidth {width:100% !important;min-width:100% !important;}
-			*[class].inner_table{width:90% !important;}
-			*[class].deviceWidth1 {width:90% !important;min-width:90% !important;}
-			*[class].table_responsive {width:100% !important;}
-			*[class].padding_bottom{padding-bottom:20px !important;}
-			*[class].block {width:100% !important;display:block !important;box-sizing:border-box;clear: both !important;}
-			*[class].center {text-align:center !important;}
-			*[class].pad-top{padding-top:20px !important;}
-			*[class].float-none{float:none !important;margin:0 auto !important;}
-			*[class].extra-space {height:8px !important;}
-			*[class].full-width img{width:100% !important;}
-			*[class].extra-space2{height:22px !important;}
+            .body-copy {font-size: 14px !important; line-height: 22px !important;}
+			.deviceWidth {width:100% !important;min-width:100% !important;}
+			.inner_table{width:90% !important;}
+			.deviceWidth1 {width:90% !important;min-width:90% !important;}
+			.table_responsive {width:100% !important;}
+			.padding_bottom{padding-bottom:20px !important;}
+			.block {width:100% !important;display:block !important;box-sizing:border-box;clear: both !important;}
+			.center {text-align:center !important;}
+			.pad-top{padding-top:20px !important;}
+			.float-none{float:none !important;margin:0 auto !important;}
+			.extra-space {height:8px !important;}
+			.full-width img{width:100% !important;}
+			.extra-space2{height:22px !important;}
+            .head {display:table-header-group!important; width:100%!important;}
+	        .foot {display:table-footer-group!important; width:100%!important;}
 			}
           	@media only screen and (max-width: 480px){
             .unit-name {text-align: center !important;}
@@ -436,7 +438,7 @@
 											<table role="Event Agenda Section2 Inner Container" class="deviceWidth1" style="width: 600px; margin: 0 auto; border-collapse: collapse;" align="center" cellpadding="0" cellspacing="0" width="600">
 												<tbody>
 													<tr>
-														<td valign="top" class="block" style="background-color: #efeef4;padding: 0px 10px 0px 22px;">
+														<td valign="top" class="block foot" style="background-color: #efeef4;padding: 0px 10px 0px 22px;">
 															<table role="Event Agenda Tab2 Left Content" style="width: 100%; border-collapse: collapse;margin:0 auto;" border="0" cellpadding="0" cellspacing="0" width="100%" align="center">
 																<tr>
 																	<td style="line-height: 1px; font-size: 1px;" height="15">&nbsp;</td>
@@ -487,7 +489,7 @@
 																</tr>
 															</table>
 														</td>
-														<td class="block pad-top center full-width" width="300" valign="top">
+														<td class="block pad-top center full-width head" width="300" valign="top">
 															<img id="body3-graphic4" align="absbottom" mktoname="Image" class="mktoImg" src="https://explore.uw.edu/rs/131-AQO-225/images/rainy-uw-sign-600x400.jpg" width="300" alt="Event Agenda Image2" border="0" />
 														</td>
 													</tr>

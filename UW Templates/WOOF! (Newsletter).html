@@ -153,32 +153,26 @@
              *[class].nopad {padding: 0 !important;}
              *[class].top-pad {padding-top: 20px !important;}
              .center_align {text-align: center !important;}
+              
+            *[class].head {display:table-header-group!important; width:100%!important;}
+	        *[class].foot {display:table-footer-group!important; width:100%!important;}
    			}
-   @media only screen and (max-width: 480px) {
-   
-   *[class].main {width:100% !important;min-width:100% !important;}
-   *[class].inner_table {width:90% !important;min-width:90% !important;}
-   .main {width:100% !important;min-width:100% !important;}
-   .inner_table {width:90% !important;min-width:90% !important;}
-   *[class].center_align {text-align: center !important;}
-   .center_align {text-align: center !important;}
-   *[class].res-image img {width: 100% !important;}
-   *[class].block {width: 100% !important; display:block !important; box-sizing:border-box;}
-   *[class].block2 {width: 100% !important; display:block !important; box-sizing:border-box;}
-   .block2 {width: 100% !important; display:block !important; box-sizing:border-box;}
-   *[class].cta {float: none !important; margin: 0 auto !important;}
-   .cta {float: none !important; margin: 0 auto !important;}
-   *[class].none {display:none !important;}
-   .none {display:none !important;}
-   *[class].nopad {padding: 0 !important;}
-   .nopad {padding: 0 !important;}
-   *[class].top-pad {padding-top: 20px !important;}
-   .top-pad {padding-top: 20px !important;}
-   .unit-name {text-align: center !important;}
-   .unit-logo img {margin: 0 auto !important;}
-   .bg-color {width:100% !important;}
-   .bg-color table{width:100% !important;}
-   }
+         @media only screen and (max-width: 480px) {
+         .main {width:100% !important;min-width:100% !important;}
+         .inner_table {width:90% !important;min-width:90% !important;}
+         .center_align {text-align: center !important;}
+         .res-image img {width: 100% !important;}
+         .block {width: 100% !important; display:block !important; box-sizing:border-box;}
+         .block2 {width: 100% !important; display:block !important; box-sizing:border-box;}
+         .cta {float: none !important; margin: 0 auto !important;}
+         .none {display:none !important;}
+         .nopad {padding: 0 !important;}
+         .top-pad {padding-top: 20px !important;}
+         .unit-name {text-align: center !important;}
+         .unit-logo img {margin: 0 auto !important;}
+         .bg-color {width:100% !important;}
+         .bg-color table{width:100% !important;}
+         }
 		</style>
 	</head>
 	<body style="margin-bottom: 0; -webkit-text-size-adjust: 100%; padding-bottom: 0;  margin-top: 0; margin-right: 0; -ms-text-size-adjust: 100%; margin-left: 0; padding-top: 0; padding-right: 0; padding-left: 0; width: 100%;">
@@ -632,10 +626,10 @@
 													<td colspan="2" height="${Body5-top-space}" style="font-size: 1px; line-height: 1px;">&nbsp;</td>
 												</tr>
 												<tr>
-													<td class="block2" valign="top" width="350" style="width: 350px;">
+													<td class="foot" valign="top" width="350" style="width: 350px;">
 														<table role="Presentation Section2 Content" width="100%" align="center" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0 auto;">
 															<tr>
-																<td valign="top" style="font-family:'Open Sans', Arial, Helvetica, sans-serif; font-size:15px; line-height:21px; color: #3d3d3d; font-weight: bold; text-align: left;">
+																<td class="top-pad" valign="top" style="font-family:'Open Sans', Arial, Helvetica, sans-serif; font-size:15px; line-height:21px; color: #3d3d3d; font-weight: bold; text-align: left;">
 																	<div class="mktoText" id="body5-heading" mktoName="Heading">
 																		<h5 style="font-family:'Open Sans', Arial, Helvetica, sans-serif; font-size:15px; line-height:21px;color: #3d3d3d;font-weight: bold; text-align: left;margin:0px;padding:0px;">PRODUCT PRESENTATION</h5>
 																	</div>
@@ -645,7 +639,7 @@
 																<td height="10" style="font-size: 1px; line-height: 1px;">&nbsp;</td>
 															</tr>
 															<tr>
-																<td  class="body-copy"valign="top" style="font-family:'Open Sans', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 19px; color: #3d3d3d; font-weight: normal; text-align: left;">
+																<td  class="body-copy" valign="top" style="font-family:'Open Sans', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 19px; color: #3d3d3d; font-weight: normal; text-align: left;">
 																	<div class="mktoText" id="body5-text" mktoName="Text">
 																		<p style="font-family:'Open Sans', Arial, Helvetica, sans-serif; color: #3d3d3d; font-weight: normal; text-align: left;margin:0px;padding:0px;">Cras sed mollis erat.
 																			In tristique elei fend elit, sit amets per enim rutrum vitae nibh.
@@ -658,7 +652,7 @@
 														</table>
 													</td>
 													<td class="block2 none" valign="top" width="50" style="width:50px;">&nbsp;</td>
-													<td class="block2 center_align top-pad" valign="top" width="160" style="width:160px; text-align: right; padding-top: 5px;">
+													<td class="center_align top-pad head" valign="top" width="160" style="width:160px; text-align: right; padding-top: 5px;">
 														<div class="mktoImg" id="body5-img" mktoName="Image">
 															<img align="absbottom" src="https://explore.uw.edu/rs/131-AQO-225/images/Marketo-Template-images160x160-px.png" alt="Presentaion Image2" border="0" width="160" />
 														</div>
@@ -728,7 +722,8 @@
 																		<td style="background-color:${btnColor}; font-family:'Open Sans', Arial, Helvetica, sans-serif; font-size: 14px; mso-line-height-rule: exactly; line-height: 14px; text-align: center; vertical-align: middle; color: ${btnTextColor}; padding:0 20px;font-weight:bold;text-transform:uppercase;" valign="middle">
 																			<a aria-label="Presentation Button" style="text-decoration: none; color: ${btnTextColor}; font-family:'Open Sans', Arial, Helvetica, sans-serif; outline: none;" href="${Body8btnUrl}">${Body8-btntext}</a>
 																		</td>
-                                                                         <td align="center" style="display: inline-block;height: 40px; text-decoration: none;"> <a href="${Body8btnUrl}"> <img src="https://explore.uw.edu/rs/131-AQO-225/images/arrow-${ctaArrow}.png" alt="" aria-hidden="true" /> </a> </td> 
+                                                                         <td align="center" style="display: inline-block;height: 40px; text-decoration: none;"> <a href="${Body8btnUrl}"> 
+                                                                           <img src="https://explore.uw.edu/rs/131-AQO-225/images/arrow-${ctaArrow}.png" alt="" aria-hidden="true" /> </a> </td> 
 
 																	</tr>
 																</tbody>
