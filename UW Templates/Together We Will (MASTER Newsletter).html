@@ -270,7 +270,8 @@
             .cool-grey-background td {
                 background-color: #6f7376;
             }
-             
+    </style>
+    <style>
             /* /\/\/\/\/\/\/ MOBILE STYLES /\/\/\/\/\/\/ */ 
             @media only screen and (max-width: 480px){
                 /* /\/\/\/\/\/\/ CLIENT-SPECIFIC MOBILE STYLES /\/\/\/\/\/\/ */
@@ -307,14 +308,13 @@
               
                  /* Added for Checkerboard */
                 .checkerboard_inner_table {width: 90% !important;}
-                *[class].checkerboard_inner_table {width: 90% !important;}
                 .checkerboard_center_align {text-align: center !important;}
                 .checkerboard_block2 {width: 100% !important; display:block !important; box-sizing:border-box;}
-                *[class].top-pad {padding-top: 20px !important;}
+                .top-pad {padding-top: 20px !important;}
               
-               *[class].head {display:table-header-group!important; width:100%!important;}
-               *[class].foot {display:table-footer-group!important; width:100%!important;}
-              
+               .head {display:table-header-group!important; width:100%!important;}
+               .foot {display:table-footer-group!important; width:100%!important;}
+                .hide {display: none !important;}
               
               
                .body-copy,
@@ -518,7 +518,7 @@
                                       <tbody> 
                                         <tr> 
                                           <!--TEXT COLUMN--> 
-                                          <td class="text column-2 stack-column foot " style="width: 50%; background-color: #ffffff; border-bottom: ${borderBottom} solid #bcbec0; vertical-align: top;"> 
+                                          <td class="text foot" style="width: 50%; background-color: #ffffff; border-bottom: ${borderBottom} solid #bcbec0; vertical-align: top;"> 
                                             <!--TEXT HEAD & TEXT BODY--> 
                                             <table border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation"> 
                                               <tbody> 
@@ -540,7 +540,7 @@
                                             <!--END TEXT HEAD & TEXT BODY--> </td> 
                                           <!--END TEXT COLUMN--> 
                                           <!--IMAGE COLUMN--> 
-                                          <td valign="top" class="text column-2 stack-column stretch-image head" style="width: 50%; background-color: #ffffff; border-bottom: ${borderBottom}px solid #bcbec0; vertical-align:top;"> 
+                                          <td valign="top" class="text stretch-image head" style="width: 50%; background-color: #ffffff; border-bottom: ${borderBottom}px solid #bcbec0; vertical-align:top;"> 
                                             <div class="mktoImg" id="newsTwoColImgd605a4fd-f292-4141-ad66-c7401d15cc66" mktoname="Image" mktolockimgstyle="true">
                                               <img src="https://explore.uw.edu/rs/131-AQO-225/images/placeholder-600x280.jpg" alt="Enter a short text version of your image, for people who are unable to see it" width="300" style="display: block; height: auto; width: 100% !important; text-align: center; line-height: 1.2; font-size: 14px; color: #444444; font-family: 'Open Sans', arial, sans-serif; font-weight: 700;" />
                                             </div> </td> 
@@ -794,10 +794,11 @@
                                         <tr> 
                                           <td class="checkerboard_block2 checkerboard_center_align" valign="top" width="160" style="width:160px; text-align: left; padding-top: 5px;"> 
                                             <div class="mktoImg" id="body4-img" mktoname="Image">
-                                              <img align="absbottom" src="https://explore.uw.edu/rs/131-AQO-225/images/placeholder-500x500.png" alt="160x160 Placeholder Image" border="0" width="160" style="display: block; height: auto; width: 100% !important; text-align: center; line-height: 1.2; font-size: 14px; color: #444444; font-family: 'Open Sans', arial, sans-serif; font-weight: 700;" />
-                                            </div> </td> 
+                                               <img align="absbottom" src="https://explore.uw.edu/rs/131-AQO-225/images/placeholder-500x500.png" alt="160x160 Placeholder Image" border="0" width="160" style="display: block; height: auto; width: 100% !important; text-align: center; line-height: 1.2; font-size: 14px; color: #444444; font-family: 'Open Sans', arial, sans-serif; font-weight: 700;" />
+                                            </div>
+                                          </td> 
                                           <td class="checkerboard_block2 none" valign="top" width="50" style="width:50px;">&nbsp;</td> 
-                                          <td class="checkerboard_block2 top-pad" valign="top" width="350" style="width: 350px;"> 
+                                          <td class="checkerboard_block2 top-pad" valign="top"  style="width: 350px;"> 
                                             <table role="Presentation Content" width="100%" align="center" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0 auto;"> 
                                               <tbody> 
                                                 <tr> 
@@ -836,31 +837,33 @@
                                           <td colspan="2" height="${checker-right-top-space}" style="font-size: 1px; line-height: 1px;">&nbsp;</td> 
                                         </tr> 
                                         <tr> 
-                                          <td class=" foot" valign="top" width="350" style="width: 350px;"> 
+                                          <td class="foot"  style="width: 350px;"> 
                                             <table role="Presentation Section2 Content" width="100%" align="center" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0 auto;"> 
                                               <tbody> 
                                                 <tr> 
                                                   <td valign="top" class="text top-pad" style="font-family: 'Open Sans' , Arial, Helvetica, sans-serif; font-size:15px; line-height:21px; color: #3d3d3d; font-weight: bold; text-align: left;"> 
                                                     <div class="mktoText" id="body5-heading" mktoname="Heading" role="heading" aria-label="3">
-                                                      PRODUCT PRESENTATION
+                                                      PRODUCT PRESENTATION 2
                                                     </div> </td> 
                                                 </tr> 
                                                 <tr> 
                                                   <td height="10" style="font-size: 1px; line-height: 1px;">&nbsp;</td> 
                                                 </tr> 
                                                 <tr> 
-                                                  <td valign="top" class="text body-copy" style="font-family: 'Open Sans' , Arial, Helvetica, sans-serif; font-size: 13px; line-height: 22px; color: #3d3d3d; font-weight: normal; text-align: left;"> 
+                                                  <td valign="top" class="text body-copy" style="font-family: 'Open Sans', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 22px; color: #3d3d3d; font-weight: normal; text-align: left;"> 
                                                     <div class="mktoText" id="body5-text" mktoname="Text">
                                                       The image should be sized at 500 x 500. Image displays at 160 x 160 on desktop but resizes in mobile view.
                                                     </div> </td> 
                                                 </tr> 
                                               </tbody> 
-                                            </table> </td> 
-                                          <td class="checkerboard_block2 none" valign="top" width="50" style="width:50px;">&nbsp;</td> 
-                                          <td class=" checkerboard_center_align top-pad head" valign="top" width="160" style="width:160px; text-align: right; padding-top: 5px;"> 
+                                            </table> 
+                                            </td> 
+                                          <td class="hide" valign="top" width="50" style="width:50px;">&nbsp;</td> 
+                                          <td class="checkerboard_center_align top-pad head" valign="top" style="width:160px; text-align: right; padding-top: 5px;"> 
                                             <div class="mktoImg" id="body5-img" mktoname="Image">
                                               <img align="absbottom" src="https://explore.uw.edu/rs/131-AQO-225/images/placeholder-500x500.png" alt="160x160 Placeholder Image" border="0" width="160" style="display: block; height: auto; width: 100% !important; text-align: center; line-height: 1.2; font-size: 14px; color: #444444; font-family: 'Open Sans', arial, sans-serif; font-weight: 700;" />
-                                            </div> </td> 
+                                            </div> 
+                                            </td> 
                                         </tr> 
                                         <tr> 
                                           <td colspan="2" height="${checker-right-bottom-space}" style="font-size: 1px; line-height: 1px;">&nbsp;</td> 
@@ -907,7 +910,7 @@
                             <table border="0" cellpadding="0" cellspacing="0" width="100%" class="mktoModule" id="bodyCopyBulletList" mktoname="Body Bullet List" role="presentation"> 
                               <tbody> 
                                 <tr> 
-                                  <td class="text body-copy" style="background-color: #ffffff; color: #3d3d3d; font-family: 'Open Sans', arial, sans-serif; font-size: 13px; font-weight: 400; line-height: 22px; text-align: left; vertical-align: top; padding: 5px 15px 5px 15px;"> 
+                                  <td colspan="3" class="text body-copy" style="background-color: #ffffff; color: #3d3d3d; font-family: 'Open Sans', arial, sans-serif; font-size: 13px; font-weight: 400; line-height: 22px; text-align: left; vertical-align: top; padding: 5px 15px 5px 15px;"> 
                                     <div class="mktoText" id="bodyBulletList" mktoname="Bullet List">
                                       <strong>Ratiamendus conseque nonsequis si cone ium:</strong> 
                                       <!-- BULLETED LIST BEGINS HERE --> 
