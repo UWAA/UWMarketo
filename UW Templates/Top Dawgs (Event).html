@@ -58,9 +58,9 @@
         <meta class="mktoString" id="footerRightLinkText" mktoname="Right Link Text" default="Optional Link" mktomodulescope="true">
         <meta class="mktoString" id="footerRightLinkURL" mktoname="Right Link URL" default="#ADDLINK" mktomodulescope="true">
       
-      <!--[if !mso]><!-->
+      <!--[if !mso]>
       <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,600,800" rel="stylesheet" type="text/css" /> 
-      <!--<![endif]-->
+      <![endif]-->
 
 		<!--[if gte mso 9]>
 		<xml>
@@ -77,7 +77,7 @@
 			.text {font-family:, Arial, Helvetica, sans-serif !important;}
 
 		</style>
-		<!--<![endif]-->
+		<![endif]-->
 		<style media="all">
 			html { -webkit-text-size-adjust:none; }
 			body{font-family:Arial, Helvetica, sans-serif;}
@@ -135,7 +135,7 @@
 						<tr>
 							<td class="mktoContainer" id="template-wrapper">
 								<!--header 1 starts here-->
-								<table role="Logo Header" class="mktoModule" id="header_section1" cellpadding="0" cellspacing="0" align="center" border="0" width="100%" style="border-collapse: collapse; margin:0 auto;min-width:100%;" mktoname="UW Header">
+								<table role="Logo Header" class="mktoModule" id="header_section1" cellpadding="0" cellspacing="0" align="center" border="0" width="100%" style="border-collapse: collapse; margin:0 auto;min-width:100%;max-width:100%;" mktoname="UW Header">
 									<tr>
 										<td>
 											<div class="mktoSnippet" id="header1_text" mktoName="UW Header" mktoDefaultSnippetId="12">
@@ -181,7 +181,7 @@
 													<tr>
 														<td class="center_align unit-logo" valign="top" align="right">
 															<div class="mktoImg" id="unitLogoImg" mktoName="Unit Logo" mktoImgLink="#ADDLINK" mktoLockImgSize="false" mktoLockImgStyle="true">
-                                                              <img src="http://explore.uw.edu/rs/131-AQO-225/images/SampleLogo_CEI.jpg" alt="Clean Energy Institute - Replace with the text content of your logo" style="color: #444444; display: block; font-family: 'Open Sans', arial, sans-serif; font-size: 18px; font-weight: 800; text-align: right; text-transform: uppercase; vertical-align: middle; max-width: 300px; line-height: 1.2;"/>
+                                                              <img src="http://explore.uw.edu/rs/131-AQO-225/images/SampleLogo_CEI.jpg" alt="Replace with the text content of your logo" style="color: #444444; display: block; font-family: 'Open Sans', arial, sans-serif; font-size: 18px; font-weight: 800; text-align: right; text-transform: uppercase; vertical-align: middle; max-width: 300px; line-height: 1.2;"/>
                                                           </div>
 														</td>
 													</tr>
@@ -222,18 +222,20 @@
 														</tr>
 														<tr>
 															<td valign="top">
-																<div  class="mktoText" mktoName="CTA Button" id="Banner-CTA">
+                                                              <div class="mktoText" mktoName="Banner CTA" id="bannerCTA">
 																	<table role="Banner section Button" align="center" border="0" cellpadding="0" cellspacing="0" style="margin:0 auto;">
 																		<tbody>
 																			<tr>
 																				<td style="background-color:#4b2e83; font-family: 'Open Sans',Arial, Helvetica, sans-serif; font-size: 14px; mso-line-height-rule: exactly; line-height: 14px; text-align: center; vertical-align: middle; color: #ffffff;  padding:0 20px;text-transform:uppercase;font-weight:bold;" valign="middle">
 																					<a aria-label="Banner Button link" style="text-decoration: none;color: #ffffff; font-family:'Open Sans', Arial, Helvetica, sans-serif;outline: none;" href="${BannerbtnUrl}">${Banner-btntext}</a>
 																				</td>
-                                                                               <td class="text" align="center" style="display: inline-block; height: 40px;font-family: Arial, sans-serif;"> <a href="${BannerbtnUrl}"> <img src="https://explore.uw.edu/rs/131-AQO-225/images/arrow-purple.png" alt="" aria-hidden="true" /> </a> </td> 
+                                                                               <td class="text" align="center" style="display: inline-block; height: 40px;font-family: Arial, sans-serif;">
+                                                                                 <a href="${BannerbtnUrl}"> <img src="https://explore.uw.edu/rs/131-AQO-225/images/arrow-purple.png" alt="" aria-hidden="true" /> </a> 
+                                                                              </td> 
 																			</tr>
 																		</tbody>
 																	</table>
-																</div>
+                                                              </div>
 															</td>
 														</tr>
 														<tr>
@@ -266,7 +268,7 @@
                                                             <w:anchorlock/>
                                                             <center>
                                                             <![endif]-->
-															<table role="Event Date Text" cellpadding="0" cellspacing="0" border="0" width="140" height="140" style="width:140px; height: 140px; border-collapse: collapse; border-radius:100%;"  bgcolor="#4b2e83">
+															<table role="Event Date Text" cellpadding="0" cellspacing="0" border="0" width="140" height="140" style="width:140px;max-width: 140px; min-width: 140px; height: 140px; border-collapse: collapse; border-radius:100%;"  bgcolor="#4b2e83">
 																<tr>
 																	<td  height="12"style="line-height: 1px; font-size: 1px;">&nbsp;</td>
 																</tr>
@@ -302,7 +304,7 @@
 																	<tr>
 																		<td class="body-copy" valign="top" style="font-family:'Open Sans', Arial, Helvetica, sans-serif; font-size: 13px; color: #3d3d3d; mso-line-height-rule: exactly; line-height: 19px;padding-top:10px;">
 																			<div class="mktoText" id="body1-para1" mktoname="Description">
-																					Lorem ipsum dolor sit amet, consectetur adipiscing elit vestibulum eu finibus tellus vnid augue laoreet lacus viverra porta quisque.
+																				Lorem ipsum dolor sit amet, consectetur adipiscing elit vestibulum eu finibus tellus vnid augue laoreet lacus viverra porta quisque.
 																			</div>
 																		</td>
 																	</tr>
@@ -322,34 +324,44 @@
 																		<table role="Event Date Button Container" width="400" class="float-none" cellspacing="0" cellpadding="0" border="0" align="right">
 																			<tr>
 																				<td valign="top">
-																					<div  class="mktoText" mktoName="Left Button" id="Section1-CTA1">
+                                                                                  	<div class="mktoText" id="cta-1" mktoname="Left CTA">
 																						<table role="Event Date Button Left" align="right" border="0" cellpadding="0" cellspacing="0">
 																							<tbody>
 																								<tr>
 																									<td style="background-color:#4b2e83; font-family:'Open Sans', Arial, Helvetica, sans-serif; font-size: 14px; mso-line-height-rule: exactly; line-height: 14px; text-align: center; vertical-align: middle; color: #ffffff;padding:0 20px;font-weight:bold;text-transform:uppercase;" valign="middle">
-																										<a aria-label="Event Date Button1" style="text-decoration: none;color: #ffffff; font-family: Arial, Helvetica, sans-serif;outline: none;" href="${Section1btn1Url}">${Section1-btn1text}</a>
+                                                                                                      <a aria-label="Event Date Button1" style="text-decoration: none;color: #ffffff; font-family: Arial, Helvetica, sans-serif;outline: none;" href="${Section1btn1Url}"> ${Section1-btn1text}
+                                                                                                      </a>
 																									</td>
-                                                                                                   <td class="text" align="center" style="display: inline-block; height: 40px;font-family: Arial, sans-serif;"> <a href="${Section1btn1Url}"> <img src="https://explore.uw.edu/rs/131-AQO-225/images/arrow-purple.png" alt="" aria-hidden="true" /> </a> </td> 
+                                                                                                   <td class="text" align="center" style="display: inline-block; height: 40px;font-family: Arial, sans-serif;"> 
+                                                                                                     <a href="${Section1btn1Url}"> 
+                                                                                                       <img src="https://explore.uw.edu/rs/131-AQO-225/images/arrow-purple.png" alt="" aria-hidden="true" /> 
+                                                                                                     </a> 
+                                                                                                  </td> 
 																								</tr>
 																							</tbody>
 																						</table>
-																					</div>
+                                                                                   </div>
 																				</td>
 																				<td style="line-height: 1px; font-size: 1px;" width="1">&nbsp;</td>
 																				<td valign="top">
-																					<div  class="mktoText" mktoName="Right Button" id="Section1-CTA2">
-																						<table role="Event Date Button Right" align="right" border="0" cellpadding="0" cellspacing="0">
+																				 <div class="mktoText" id="cta-2" mktoname="Right CTA">		
+                                                                                  <table role="Event Date Button Right" align="right" border="0" cellpadding="0" cellspacing="0">
 																							<tbody>
 																								<tr>
 																									<td style="background-color:#4b2e83; font-family:'Open Sans', Arial, Helvetica, sans-serif; font-size: 14px; mso-line-height-rule: exactly; line-height: 14px; text-align: center; vertical-align: middle; color: #ffffff; padding:0 20px;font-weight:bold;text-transform:uppercase;" valign="middle">
-																										<a aria-label="Event Date Button2" style="text-decoration: none;color: #ffffff; font-family: Arial, Helvetica, sans-serif;outline: none;" href="${Section1btn2Url}">${Section1-btn2text}</a>
+                                                                                                     
+                                                                                                        <a aria-label="Event Date Button2" style="text-decoration: none;color: #ffffff; font-family: Arial, Helvetica, sans-serif;outline: none;" href="${Section1btn2Url}">${Section1-btn2text}</a>
+                                                                                                    
 																									</td>
-                                                                                                   <td class="text" align="center" style="display: inline-block; height: 40px;font-family: Arial, sans-serif;"> <a href="${Section1btn1Url}"> <img src="https://explore.uw.edu/rs/131-AQO-225/images/arrow-purple.png" alt="" aria-hidden="true" /> </a> </td> 
-
+                                                                                                   <td class="text" align="center" style="display: inline-block; height: 40px;font-family: Arial, sans-serif;"> 
+                                                                                                     <a href="${Section1btn1Url}"> 
+                                                                                                     <img src="https://explore.uw.edu/rs/131-AQO-225/images/arrow-purple.png" alt="" aria-hidden="true" /> 
+                                                                                                     </a>
+                                                                                                  </td> 
 																								</tr>
 																							</tbody>
 																						</table>
-																					</div>
+                                                                                    </div>
 																				</td>
 																			</tr>
 																		</table>
@@ -394,7 +406,7 @@
 																	<td style="line-height: 1px; font-size: 1px;" height="15">&nbsp;</td>
 																</tr>
 																<tr>
-																	<td  class="body-copy" class="body-copy" valign="top" style="font-family:'Open Sans',arial,sans-serif,helvetica;font-size:13px;font-weight:normal;line-height:19px;color:#3d3d3d;vertical-align:top;text-align:left;">
+																	<td  class="body-copy"  valign="top" style="font-family:'Open Sans',arial,sans-serif,helvetica;font-size:13px;font-weight:normal;line-height:19px;color:#3d3d3d;vertical-align:top;text-align:left;">
 																		<div class="mktoText" id="body2-para" mktoname="Paragraph">
 																			<p style="color:#3d3d3d;vertical-align:top;text-align:left;margin:0px;padding:0px;">Picture should be sized 500 x 340. It will display 265 x 180 in desktop but will resize in mobile view
 																			</p>
@@ -407,7 +419,7 @@
 																</tr>
 																<tr>
 																	<td valign="top">
-																		<div  class="mktoText" mktoName="CTA Button" id="Section2-CTA">
+                                                                      <div class="mktoText" id="rightCTA" mktoname="Right CTA">
 																			<table role="Event Agenda Tab1 Right Button" align="left" border="0" cellpadding="0" cellspacing="0">
 																				<tbody>
 																					<tr>
@@ -418,7 +430,7 @@
 																					</tr>
 																				</tbody>
 																			</table>
-																		</div>
+                                                                      </div>
 																	</td>
 																</tr>
 																<tr>
@@ -471,19 +483,20 @@
 																</tr>
 																<tr>
 																	<td valign="top">
-																		<div  class="mktoText" mktoName="CTA Button" id="Section3-CTA">
+                                                                      <div class="mktoText" id="leftCTA" mktoname="Left CTA">
 																			<table role="Event Agenda Tab1 Left Button" align="left" border="0" cellpadding="0" cellspacing="0">
 																				<tbody>
 																					<tr>
 																						<td style="background-color:#4b2e83; font-family:'Open Sans', Arial, Helvetica, sans-serif; font-size: 14px; mso-line-height-rule: exactly;line-height: 14px; text-align: center; vertical-align: middle;color: #ffffff;padding: 0 20px;text-transform:uppercase;font-weight:bold;" valign="middle">
 																							<a aria-label="Event Agenda Button2" style="text-decoration: none;color: #ffffff; font-family: Arial, Helvetica, sans-serif;outline: none;" href="${Section3btnUrl}">${Section3-btntext}</a>
 																						</td>
-                                                                             		    <td class="text" align="center" style="display: inline-block; height: 40px;font-family: Arial, sans-serif;"> <a href="${Section3btnUrl}"> <img src="https://explore.uw.edu/rs/131-AQO-225/images/arrow-purple.png" alt="" aria-hidden="true" /> </a> </td>
+                                                                             		    <td class="text" align="center" style="display: inline-block; height: 40px;font-family: Arial, sans-serif;"> <a href="${Section3btnUrl}"> 
+                                                                                          <img src="https://explore.uw.edu/rs/131-AQO-225/images/arrow-purple.png" alt="" aria-hidden="true" /> </a> </td>
 
 																					</tr>
 																				</tbody>
 																			</table>
-																		</div>
+                                                                      </div>
 																	</td>
 																</tr>
 																<tr>
@@ -577,8 +590,8 @@
 													</tr>
 													<tr>
 														<td valign="top">
-															<div  class="mktoText" mktoName="CTA Button" id="Section5-CTA">
-																<table role="Webinar Remainder Section Button" align="center" border="0" cellpadding="0" cellspacing="0" style="margin:0 auto;">
+                                                          <div class="mktoText" id="cta2" mktoname="CTA-2">
+																<table role=" Section Button" align="center" border="0" cellpadding="0" cellspacing="0" style="margin:0 auto;">
 																	<tbody>
 																		<tr>
 																			<td style="background-color:#4b2e83; font-family:'Open Sans', Arial, Helvetica, sans-serif; font-size: 14px; mso-line-height-rule: exactly; line-height: 14px; text-align: center; vertical-align: middle; color: #ffffff;padding:0 20px;font-weight:bold;" valign="middle">
@@ -590,7 +603,7 @@
 																		</tr>
 																	</tbody>
 																</table>
-															</div>
+                                                          </div>
 														</td>
 													</tr>
 													<tr>
@@ -614,7 +627,7 @@
 													<tr>
 														<td  colspan="3" valign="top" style="font-family:'Open Sans',arial,sans-serif,helvetica;font-size:18px;line-height:24px;color:#3d3d3d;vertical-align:top;text-align:center;font-weight:bold;text-transform:uppercase;">
 															<div class="mktoText" id="body6-heading1" mktoname="Heading">
-																<h6 style="color:#3d3d3;vertical-align:top;text-align:center;font-weight:bold;margin:0px;padding:0px;">Past edition gallery</h6>
+																<h6 style="color:#3d3d3d;vertical-align:top;text-align:center;font-weight:bold;margin:0px;padding:0px;">Past edition gallery</h6>
 															</div>
 														</td>
 													</tr>
@@ -752,8 +765,8 @@
 								<!--BODY COPY, FULL WIDTH, PURPLE BACKGROUND-->
                         <table border="0" cellspacing="0" cellpadding="0" width="100%" class="purple-background mktoModule" id="bodyCopyPurple" mktoName="Body Paragraph - Purple" role="presentation">
                             <tr>
-                                <td colspan="3" align="left" valign="top" class="text body-copy" style="background-color: #4b2e84; color: #FFFFFF; font-family: 'Open Sans', arial, sans-serif; font-size: 13px; font-weight: 400; line-height: 22px; padding: 10px 15px 10px 15px;text-align: left;  vertical-align: top;">
-                                <div  class="body-copy" class="mktoText" id="bodyCopyParagraphPurple" mktoName="Body Paragraph">
+                                <td class="body-copy" colspan="3" align="left" valign="top" class="text body-copy" style="background-color: #4b2e84; color: #FFFFFF; font-family: 'Open Sans', arial, sans-serif; font-size: 13px; font-weight: 400; line-height: 22px; padding: 10px 15px 10px 15px;text-align: left;  vertical-align: top;">
+                                <div class="mktoText" id="bodyCopyParagraphPurple" mktoName="Body Paragraph">
                                      Mus es eipcipit atisquis aliassimo maximpe venis ea eosae occulpari odit volum mo doloratur audition rem labo. Inverum endit est quiati diorerc hiliquam, sernatquibus sent re nait en dit is dolend anta proaser nat quibus sent, que sernatquibus sent, que poriorem sustet aut vol. <a class="text apple-link-white" href="#ADDLINK" style="color: #FFFFFF;">Need a link? Copy and paste me.</a> 
                                 </div>    
                                 </td>
@@ -762,7 +775,7 @@
                         <!--END BODY COPY, FULL-WIDTH, PURPLE BACKGROUND-->
 
                         <!--CTA BUTTON - PURPLE BACKGROUND-->
-                        <table width="100%" border="0" cellspacing="0" cellpadding="0" class="mktoModule" id="purplebkgCTAButton" mktoName="CTA Button - Purple">
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0" class="mktoModule" id="purplebkgCTAButton" mktoName="CTA Button - Purple" style="width:100%; min-width:100%;max-width:100%;">
                           <tr>
                             <td bgcolor="#4b2e83" style="padding: 20px 0;" class="text">
                                 <center>
@@ -784,7 +797,7 @@
                         <!--END CTA BUTTON - PURPLE BACKGROUND-->
  
                         <!--FOOTER LINK ROW GREY BAR WRAPPER-->
-                        <table border="0" cellspacing="0" cellpadding="0" width="100%" class="cool-grey-background grey-bar-footer mktoModule" id="footerLinkRow" mktoName="Link Row" role="presentation">
+                        <table border="0" cellspacing="0" cellpadding="0" width="100%" class="cool-grey-background grey-bar-footer mktoModule" id="footerLinkRow" mktoName="Link Row" role="presentation" style="width: 100%; min-width:100%;max-width:100%;">
                             <tr>
                                 <!--UW HOME FOOTER LINK-->
                                 <td align="center" valign="top" class="text stack-column column-3" style="background-color: #6f7376; padding: 4px 0; font-family:'Open Sans', arial, sans-serif; font-weight: 600; letter-spacing: 1.2; font-size: 11px; line-height: 1.2; text-align: center; text-transform: uppercase; vertical-align: middle; width: 33.33%;">
@@ -807,7 +820,7 @@
 
                          
              <!--BOUNDLESS LOGO - WHITE BACKGROUND--> 
-            <table border="0" cellspacing="0" cellpadding="0" width="100%" class="white-background mktoModule" id="campaignTagline" mktoName="Campaign Tagline" role="presentation"> 
+            <table border="0" cellspacing="0" cellpadding="0" width="100%" class="white-background mktoModule" id="campaignTagline" mktoName="Campaign Tagline" role="presentation" style="width: 100%; min-width: 100%; max-width: 100%;"> 
                 <tr>
                     <td align="center" valign="top" style="background-color: #fff; padding: 15px 0 10px 0;">
                         <div class="mktoImg" id="campaignLogoW" mktoName="Campaign Logo" mktoImgLink="http://www.washington.edu/boundless/" mktoLockImgStyle="true">
@@ -822,7 +835,7 @@
             <!-- END BOUNDLESS LOGO - WHITE BACKGROUND-->
                          
              <!-- SOCIAL MEDIA ICON ROW -->
-            <table border="0" cellspacing="0" cellpadding="0" width="100%" class="white-background social-media-footer mktoModule" id="socialMediaFooter" mktoName="Social Media Footer" role="presentation">
+            <table border="0" cellspacing="0" cellpadding="0" width="100%" class="white-background social-media-footer mktoModule" style="width: 100%; min-width: 100%; max-width: 100%;" id="socialMediaFooter" mktoName="Social Media Footer" role="presentation">
                 <tr>
                     <td align="center" valign="top" class="text" style="background-color: #ffffff; font-family: 'Open Sans', arial, sans-serif; font-weight: 400; font-size: 13px; line-height: 1.2; text-align: center; color: #3d3d3d; vertical-align: middle; padding: 10px 0 10px 0;">
                         <div class="mktoText" id="socialMediaIcons" mktoName="Social Media Icons">
@@ -862,7 +875,7 @@
             </table>
              <!-- END SOCIAL MEDIA ICON ROW -->
             <!--ANTI-SPAM FOOTER LINKS-->
-            <table border="0" cellspacing="0" cellpadding="0" width="100%" class="anti-spam-row white-background mktoModule" id="antiSpamLinks" mktoName="Required Contact & Privacy Links" role="presentation">
+            <table border="0" cellspacing="0" cellpadding="0" width="100%" class="anti-spam-row white-background mktoModule" style="width: 100%; min-width: 100%; max-width: 100%;" id="antiSpamLinks" mktoName="Required Contact & Privacy Links" role="presentation" >
                 <tr>
                     <td align="center" valign="top" class="text" style="background-color: #ffffff; padding: 5px 15px; font-family: 'Open Sans', arial, sans-serif; font-weight: 400; font-size: 9px; line-height: 2.5; text-align: center; text-transform: uppercase; -ms-text-size-adjust: none; -webkit-text-size-adjust: none;">
                         <a href="mailto:${contactUsEmail}" class="apple-link-grey" style="color: #3d3d3d; text-decoration: none;">Contact Us</a>
@@ -876,7 +889,7 @@
             </table>
             <!--END ANTI-SPAM FOOTER LINKS-->
             <!--COPYRIGHT & ADDRESS FOOTER-->
-            <table border="0" cellspacing="0" cellpadding="0" width="100%" class="anti-spam-row white-background mktoModule" id="copyrightRow" mktoName="Copyright & Address Footer" role="presentation">
+            <table border="0" cellspacing="0" cellpadding="0" width="100%" class="anti-spam-row white-background mktoModule" style="width: 100%; min-width: 100%; max-width: 100%;" id="copyrightRow" mktoName="Copyright & Address Footer" role="presentation">
                 <tr>
                     <td align="center" valign="top" class="text apple-link-grey" style=" background-color: #ffffff; padding: 5px 15px 10px 15px; font-family: 'Open Sans', arial, sans-serif; font-weight: 400; font-size: 9px; line-height: 2.0; text-align: center; text-transform: none; color: #3d3d3d; -ms-text-size-adjust: none; -webkit-text-size-adjust: none;">
                     <div class="mktoText" id="copyrightAndAddress" mktoName="Copyright & Address">&copy; 2018 Unit Name and address go here.</div>
@@ -886,7 +899,7 @@
             </table>
             <!--END ANTI-SPAM EMAIL SENT TO & COPYRIGHT-->
             <!--OPT-OUT FOOTER-->
-            <table border="0" cellspacing="0" cellpadding="0" width="100%" class="anti-spam-row white-background mktoModule" id="managePreferencesLink" mktoName="Opt-Out Footer" role="presentation">
+            <table border="0" cellspacing="0" cellpadding="0" width="100%" class="anti-spam-row white-background mktoModule" style="width: 100%; min-width: 100%; max-width: 100%;" id="managePreferencesLink" mktoName="Opt-Out Footer" role="presentation">
                 <tr>
                     <td align="center" valign="top" class="text" style="background-color: #ffffff; padding: 0 15px 15px 15px; font-family: 'Open Sans', arial, sans-serif; font-weight: 400; font-size: 9px; line-height: 1.7; text-align: center; text-transform: none; -ms-text-size-adjust: none; -webkit-text-size-adjust: none; color: #3d3d3d;">
                         This email was sent to <a href="mailto:{{lead.Email Address}}" class="mktNoTrack apple-link-grey" style="color: #3d3d3d; text-decoration: none;">{{lead.Email Address}}</a><br>
@@ -898,7 +911,7 @@
             <!--END OPT-OUT FOOTER-->  
                               
 			<!--BOUNDLESS LOGO - PURPLE BACKGROUND--> 
-            <table border="0" cellspacing="0" cellpadding="0" width="100%" class="purple-background mktoModule" id="campaignTaglineW" mktoName="Campaign Tagline - Purple" role="presentation"> 
+            <table border="0" cellspacing="0" cellpadding="0" width="100%" class="purple-background mktoModule" style="width: 100%; min-width: 100%; max-width: 100%;" id="campaignTaglineW" mktoName="Campaign Tagline - Purple" role="presentation"> 
                 <tr>
                     <td align="center" valign="top" style="background-color: #4b2e83; padding: 15px 0 10px 0;">
                         <div class="mktoImg" id="campaignLogoP" mktoName="Campaign Logo" mktoImgLink="http://www.washington.edu/boundless/" mktoLockImgStyle="true">
@@ -913,7 +926,7 @@
             <!-- END BOUNDLESS LOGO - PURPLE BACKGROUND-->
 			
 			<!-- SOCIAL MEDIA ICON ROW - PURPLE BACKGROUND -->
-            <table border="0" cellspacing="0" cellpadding="0" width="100%" class="purple-background social-media-footer mktoModule" id="socialMediaFooterP" mktoName="Social Media Footer - Purple" role="presentation">
+            <table border="0" cellspacing="0" cellpadding="0" width="100%" class="purple-background social-media-footer mktoModule" style="width: 100%; min-width: 100%; max-width: 100%;" id="socialMediaFooterP" mktoName="Social Media Footer - Purple" role="presentation">
                 <tr>
                     <td align="center" valign="top" class="text" style="background-color: #4b2e83; font-family: 'Open Sans', arial, sans-serif; font-weight: 400; font-size: 13px; line-height: 1.2; text-align: center; color: #3d3d3d; vertical-align: middle; padding: 10px 15px 10px 15px;">
                         <div class="mktoText" id="socialMediaIconsP" mktoName="Social Media Icons">
@@ -954,7 +967,7 @@
              <!-- END SOCIAL MEDIA ICON ROW - PURPLE BACKGROUND -->
 			 
 			  <!--ANTI-SPAM FOOTER LINKS - PURPLE BACKGROUND-->
-            <table border="0" cellspacing="0" cellpadding="0" width="100%" class="anti-spam-row-purple purple-background mktoModule" id="footerAntiSpamRowP" mktoName="Anti-Spam Links - Purple" role="presentation">
+            <table border="0" cellspacing="0" cellpadding="0" width="100%" class="anti-spam-row-purple purple-background mktoModule" style="width: 100%; min-width: 100%; max-width: 100%;" id="footerAntiSpamRowP" mktoName="Anti-Spam Links - Purple" role="presentation">
                 <tr>
                     <td align="center" valign="top" class="text" style="background-color: #4b2e83; padding: 5px 15px; font-family: 'Open Sans', arial, sans-serif; font-weight: 400; font-size: 9px; line-height: 2.5; text-align: center; text-transform: uppercase; -ms-text-size-adjust: none; -webkit-text-size-adjust: none; color: #ffffff;">
                         <a href="mailto:${contactUsEmail}" class="mktNoTrack apple-link-white" style="color: #FFFFFF; text-decoration: none;">Contact Us</a>
@@ -969,7 +982,7 @@
             <!--END ANTI-SPAM FOOTER LINKS - PURPLE BACKGROUND-->
 			
 			 <!--ANTI-SPAM EMAIL SENT TO & COPYRIGHT - PURPLE BACKGROUND-->
-            <table border="0" cellspacing="0" cellpadding="0" width="100%" class="anti-spam-row-purple purple-background mktoModule" id="copyrightRowP" mktoName="Copyright & Address - Purple" role="presentation">
+            <table border="0" cellspacing="0" cellpadding="0" width="100%" class="anti-spam-row-purple purple-background mktoModule" style="width: 100%; min-width: 100%; max-width: 100%;" id="copyrightRowP" mktoName="Copyright & Address - Purple" role="presentation">
                 <tr>
                     <td align="center" valign="top" class="text apple-link-white" style=" background-color: #4b2e83; padding: 5px 15px 10px 15px; font-family: 'Open Sans', arial, sans-serif; font-weight: 400; font-size: 9px; line-height: 2.0; text-align: center; text-transform: none; color: #ffffff; -ms-text-size-adjust: none; -webkit-text-size-adjust: none;">
                     <div class="mktoText" id="copyrightAndAddressP" mktoName="Copyright & Address">&copy; 2018 Unit Name and address go here</div>
@@ -980,7 +993,7 @@
             <!--END ANTI-SPAM EMAIL SENT TO & COPYRIGHT - PURPLE BACKGROUND-->
 			
 			 <!--OPT-OUT FOOTER-->
-            <table border="0" cellspacing="0" cellpadding="0" width="100%" class="anti-spam-row-purple purple-background mktoModule" id="managePreferencesLinkP" mktoName="Opt-Out Footer - Purple" role="presentation">
+            <table border="0" cellspacing="0" cellpadding="0" width="100%" class="anti-spam-row-purple purple-background mktoModule" style="width: 100%; min-width: 100%; max-width: 100%;" id="managePreferencesLinkP" mktoName="Opt-Out Footer - Purple" role="presentation">
                 <tr>
                     <td align="center" valign="top" class="text" style="background-color: #4b2e83; padding: 0 15px 15px 15px; font-family: 'Open Sans', arial, sans-serif; font-weight: 400; font-size: 9px; line-height: 1.7; text-align: center; text-transform: none; -ms-text-size-adjust: none; -webkit-text-size-adjust: none; color: #ffffff;">
                         This email was sent to <a href="mailto:{{lead.Email Address}}" class="apple-link-white" style="color: #ffffff; text-decoration: none;">{{lead.Email Address}}</a>
@@ -999,4 +1012,3 @@
 		</table>
 	</body>
 </html>
-

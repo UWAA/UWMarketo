@@ -181,15 +181,9 @@
                         <tbody> 
                           <tr> 
                             <td> 
-                              <div class="mktoSnippet" id="header1_text" mktoname="UW Header">
-                                <table border="0" cellspacing="0" cellpadding="0" width="100%" role="presentation"> 
-                                  <tbody> 
-                                    <tr> 
-                                      <td valign="top" style="background-color: #4b2e83; padding: 12px 0;"><a href="http://www.washington.edu/"> <img src="http://www.washington.edu/marketo/wordmark-uw.png" alt="University of Washington" width="257" style="display: block; text-align: left; font-family: 'Open Sans', arial, sans-serif; font-weight: bold; font-size: 14px; line-height: 1.2; text-transform: uppercase; vertical-align: middle; letter-spacing: 1px; border: none;" /> </a></td> 
-                                    </tr> 
-                                  </tbody> 
-                                </table>
-                              </div> </td> 
+                               <!--HEADER SNIPPET PLACEHOLDER-->
+                            <div class="mktoSnippet" id="uwHeader" mktoName="UW Header"  mktoDefaultSnippetId="12"></div>
+                        <!--END HEADER SNIPPET PLACEHOLDER-->   </td> 
                           </tr> 
                         </tbody> 
                       </table>
@@ -276,19 +270,20 @@
                                           <!--button--> 
                                           <tr> 
                                             <td style="vertical-align:top;" valign="top"> 
-                                              <div class="mktoText" id="body_section1_button" mktoname="Button">
+                                               <div class="mktoText" id="bannerCTA" mktoname="Banner CTA - Left">
                                                 <table role="Banner Button" cellpadding="0" cellspacing="0" border="0" align="left"> 
                                                   <tbody> 
                                                     <tr> 
-                                                      <td bgcolor="${btnColor}" style="background-color:${btnColor}; text-align: center; font-size:14px; font-family:'Open Sans',Arial,Helvetica,sans-serif;text-decoration: none; border-radius:0px;padding:0px 20px;font-weight:bold;color:${btnTextColor};text-transform:uppercase;line-height:14px;height:40px;" valign="middle">
+                                                      <td bgcolor="${btnColor}" style="background-color:${btnColor}; text-align: center; font-size:14px; font-family:'Open Sans',Arial,Helvetica,sans-serif;text-decoration: none;padding:0 20px;font-weight:bold;color:${btnTextColor};text-transform:uppercase;line-height:14px;height:40px;" valign="middle">
                                                         <a aria-label="Learn More about university of washington" style="text-decoration: none; color:${btnTextColor}; outline:none;text-decoration:none;" href="${body_section1_URL}">${body_section1_text}</a>
                                                       </td> 
-                                                      <td align="center"> <a href="${body_section1_URL}"> <img src="https://explore.uw.edu/rs/131-AQO-225/images/arrow-${ctaArrow}.png" alt="" aria-hidden="true" /> </a> 
+                                                      <td bgcolor="${btnColor}" align="center" style="display: inline-block; height: 40px;"> <a href="${body_section1_URL}"> <img src="https://explore.uw.edu/rs/131-AQO-225/images/arrow-${ctaArrow}.png" alt="" aria-hidden="true" /> </a> 
                                                       </td> 
                                                     </tr> 
                                                   </tbody> 
                                                 </table>
-                                              </div> </td> 
+                                              </div>
+                                             </td> 
                                           </tr> 
                                         </tbody> 
                                       </table> </td> 
@@ -366,19 +361,20 @@
                                           <!--button--> 
                                           <tr> 
                                             <td style="vertical-align:top;" valign="top"> 
-                                              <div class="mktoText" id="body_section_button" mktoname="Button">
+                                             <div class="mktoText" id="bannerCTARight" mktoname="Banner CTA - Right">
                                                 <table role="Banner Button" cellpadding="0" cellspacing="0" border="0" align="center"> 
                                                   <tbody> 
                                                     <tr> 
                                                       <td bgcolor="${btnColor}" style="background-color:${btnColor}; text-align: center; font-size: 14px; font-family:'Open Sans',Arial,Helvetica,sans-serif;text-decoration: none; border-radius:0px;padding:0 20px;font-weight:bold;color:${btnTextColor};text-transform:uppercase;line-height:14px;height: 40px; " valign="middle"> 
                                                         <a aria-label="Learn More about university of washington" style="text-decoration: none; color:${btnTextColor}; outline:none;text-decoration:none;" href="${body_section_URL}">${body_section_text}</a>
                                                       </td> 
-                                                      <td align="center"> <a href="${body_section_URL}">
+                                                      <td align="center" style="display: inline-block; height: 40px;"> <a href="${body_section_URL}">
                                                         <img src="https://explore.uw.edu/rs/131-AQO-225/images/arrow-${ctaArrow}.png" alt="" aria-hidden="true" /> </a> </td> 
                                                     </tr> 
                                                   </tbody> 
-                                                </table>
-                                              </div> </td> 
+                                               </table>
+                                              </div>
+                                               </td> 
                                           </tr> 
                                         </tbody> 
                                       </table> </td> 
@@ -407,7 +403,7 @@
                                   </tr> 
                                   <tr> 
                                     <td valign="top" style="vertical-align:top;text-align:center;"> 
-                                      <div class="mktoImg" id="body_section2_image" mktoname="Image">
+                                      <div class="mktoImg" id="body_section2_image" mktoname="Image" mktoImgLink="#ADDLINK">
                                         <img src="https://explore.uw.edu/rs/131-AQO-225/images/Marketo-Template-images125x100-px_1.png" width="125" border="0" />
                                       </div> </td> 
                                   </tr> 
@@ -432,7 +428,8 @@
                                     <td valign="top" style="font-family:'Open Sans',arial,sans-serif,helvetica;font-size:15px;font-weight:bold;line-height:21px;color:#3d3d3d;vertical-align:top;text-align:center;"> 
                                       <div class="mktoText" id="body_section3_heading" mktoname="Heading">
                                         Take a look to our magic travel plans
-                                      </div> </td> 
+                                      </div> 
+                                    </td> 
                                   </tr> 
                                   <tr> 
                                     <td height="8" style="line-height:1px;font-size:1px;">&nbsp;</td> 
@@ -462,17 +459,21 @@
                                   </tr> 
                                   <tr> 
                                     <td align="center" valign="top"> 
-                                      <div class="mktoText" id="body_section4_btn" mktoname="CTA Button">
+                                      <div class="mktoText" id="rsvp" mktoname="RSVP Button">
                                         <table role="RSVP Button" cellpadding="0" cellspacing="0" border="0"> 
                                           <tbody> 
                                             <tr> 
                                               <td bgcolor="${btnColor}" style="background-color:${btnColor};text-align: center; font-size: 14px; font-family:'Open Sans',Arial,Helvetica,sans-serif;text-decoration: none; border-radius:0px;padding:0 20px;font-weight:bold;color:${btnTextColor};line-height: 14px;height:40px; " valign="middle"> <a aria-label="RSVP Button Link" style="text-decoration: none; 
                                             color:${btnTextColor}; outline:none;text-decoration:none;" href="${body_section4_URL}">${body_section4_text}</a></td> 
-                                              <td style="display: inline-block; height: 40px;" align="center"> <a href="${body_section4_URL}}"> <img src="https://explore.uw.edu/rs/131-AQO-225/images/arrow-${ctaArrow}.png" alt="" aria-hidden="true" /> </a> </td> 
+                                              <td style="display: inline-block; height: 40px;" align="center"> 
+                                                <a href="${body_section4_URL}"> 
+                                                <img src="https://explore.uw.edu/rs/131-AQO-225/images/arrow-${ctaArrow}.png" alt="" aria-hidden="true" /> 
+                                                </a> </td> 
                                             </tr> 
                                           </tbody> 
                                         </table>
-                                      </div> </td> 
+                                      </div>
+                                    </td> 
                                   </tr> 
                                   <tr> 
                                     <td height="${body_section4_btm_space}" style="line-height:1px;font-size:1px;">&nbsp; </td> 
@@ -503,20 +504,20 @@
                                                 <tbody> 
                                                   <tr> 
                                                     <td valign="top" style="vertical-align:top;"> 
-                                                      <div class="mktoImg" id="body_section5_image1" mktoname="Col-1 Image">
+                                                      <div class="mktoImg" id="body_section5_image1" mktoname="Col-1 Image" mktoImgLink="#ADDLINK">
                                                         <img align="absbottom" class="full-width" src="https://explore.uw.edu/rs/131-AQO-225/images/rowers-560x380.jpg" alt="Presentation Image1" border="0" width="265" />
                                                       </div> </td> 
                                                   </tr> 
                                                   <tr> 
                                                     <td bgcolor="#ffffff" style="background-color:#ffffff"> 
-                                                      <div class="mktoText" id="body_section5_content1" mktoname="Col-1 Content">
+                                                       <div class="mktoText" id="body_section5_content1" mktoname="Col-1 Content">
                                                         <table role="Presentation1 Content" width="100%" align="center" cellpadding="0" cellspacing="0" border="0" style="width:100%;margin:0 auto;"> 
                                                           <tbody> 
                                                             <tr> 
                                                               <td height="20" style="line-height:1px;font-size:1px;">&nbsp; </td> 
                                                             </tr> 
                                                             <tr> 
-                                                              <td valign="top" style="font-family:'Open Sans', arial,sans-serif,helvetica;font-size:15px;font-weight:bold;line-height:21px;color:#3d3d3d;vertical-align:top;text-align:left;"> Product Presentation</td> 
+                                                              <td valign="top" style="font-family:'Open Sans', arial,sans-serif,helvetica;font-size:15px;font-weight:bold;line-height:21px;color:#3d3d3d;vertical-align:top;text-align:left;">Short Headline</td> 
                                                             </tr> 
                                                             <tr> 
                                                               <td height="8" style="line-height:1px;font-size:1px;">&nbsp; </td> 
@@ -524,6 +525,7 @@
                                                             <tr> 
                                                               <td  class="body-copy" valign="top" style="font-family:'Open Sans',arial,sans-serif,helvetica;font-size:13px;font-weight:normal;line-height:22px;color:#3d3d3d;vertical-align:top;text-align:left;"> The research raises the hope that someday it may be possible to repair retinas damaged by trauma, glaucoma and other eye diseases.</td> 
                                                             </tr> 
+                                                         
                                                             <tr> 
                                                               <td height="20" style="line-height:1px;font-size:1px;">&nbsp; </td> 
                                                             </tr> 
@@ -534,20 +536,28 @@
                                                                     <tr> 
                                                                       <td bgcolor="${btnColor}" style="background-color:${btnColor}; text-align: center; font-size: 14px; font-family:'Open Sans',Arial,Helvetica,sans-serif;text-decoration: none; border-radius:0px;padding:0 20px;font-weight:bold;color:${btnTextColor};line-height: 14px;height: 40px; " valign="middle"> 
                                                                         <a aria-label="Presentation Button" style="text-decoration: none; color:${btnTextColor}; outline:none;text-decoration:none;" href="${body_section5_URL1}">${body_section5_text1}</a></td> 
-                                                                      <td  style="display: inline-block; height: 40px;" align="center"> <a href="${body_section5_URL1}"> <img src="https://explore.uw.edu/rs/131-AQO-225/images/arrow-${ctaArrow}.png" alt="" aria-hidden="true" /> </a> </td> 
+                                                                      <td  style="display: inline-block; height: 40px;" align="center"> 
+                                                                        <a href="${body_section5_URL1}">
+                                                                          <img src="https://explore.uw.edu/rs/131-AQO-225/images/arrow-${ctaArrow}.png" alt="" aria-hidden="true" /> 
+                                                                        </a> 
+                                                                      </td> 
                                                                     </tr> 
                                                                   </tbody> 
-                                                                </table> </td> 
+                                                                </table>
+                                                               
+                                                              </td> 
                                                             </tr> 
                                                             <tr> 
                                                               <td height="15" style="line-height:1px;font-size:1px;">&nbsp; </td> 
                                                             </tr> 
                                                           </tbody> 
                                                         </table>
-                                                      </div> </td> 
+                                                     </div> 
+                                                    </td> 
                                                   </tr> 
                                                 </tbody> 
-                                              </table> </td> 
+                                              </table>
+                                            </td> 
                                             <!--one column--> 
                                             <td class="res phne_height" width="30" style="line-height:1px;font-size:1px;">&nbsp; </td> 
                                             <!--two column --> 
@@ -556,7 +566,7 @@
                                                 <tbody> 
                                                   <tr> 
                                                     <td valign="top" style="vertical-align:top;"> 
-                                                      <div class="mktoImg" id="body_section5_image2" mktoname="Col-2 Image">
+                                                      <div class="mktoImg" id="body_section5_image2" mktoname="Col-2 Image" mktoImgLink="#ADDLINK">
                                                         <img align="absbottom" class="full-width" src="https://explore.uw.edu/rs/131-AQO-225/images/rowers-560x380.jpg" alt="Presentation2 Image" border="0" width="265" />
                                                       </div> </td> 
                                                   </tr> 
@@ -569,7 +579,7 @@
                                                               <td height="20" style="line-height:1px;font-size:1px;">&nbsp; </td> 
                                                             </tr> 
                                                             <tr> 
-                                                              <td valign="top" style="font-family:'Open Sans',arial,sans-serif,helvetica;font-size:15px;font-weight:bold;line-height:21px;color:#3d3d3d;vertical-align:top;text-align:left;"> Product Presentation</td> 
+                                                              <td valign="top" style="font-family:'Open Sans',arial,sans-serif,helvetica;font-size:15px;font-weight:bold;line-height:21px;color:#3d3d3d;vertical-align:top;text-align:left;">Short Headline</td> 
                                                             </tr> 
                                                             <tr> 
                                                               <td height="8" style="line-height:1px;font-size:1px;">&nbsp; </td> 
@@ -582,22 +592,31 @@
                                                             </tr> 
                                                             <tr> 
                                                               <td align="left" valign="top"> 
+                                                             
                                                                 <table role="Presentation2 Button" cellpadding="0" cellspacing="0" border="0" align="left"> 
                                                                   <tbody> 
                                                                     <tr> 
                                                                       <td bgcolor="${btnColor}" style="background-color:${btnColor}; text-align: center; font-size: 14px; font-family:'Open Sans',Arial,Helvetica,sans-serif;text-decoration: none; border-radius:0px;padding:0 20px;font-weight:bold;color:${btnTextColor};line-height: 14px;height: 40px;" valign="middle"> 
-                                                                        <a aria-label="Presentation2 Button Link" style="text-decoration: none; color:${btnTextColor}; outline:none;text-decoration:none;" href="${body_section5_URL2}">${body_section5_text2}</a></td> 
-                                                                      <td style="display: inline-block; height: 40px;" align="center"> <a href="${body_section5_URL2}"> <img src="https://explore.uw.edu/rs/131-AQO-225/images/arrow-${ctaArrow}.png" alt="" aria-hidden="true" /> </a> </td> 
+                                                                        <a aria-label="Presentation2 Button Link" style="text-decoration: none; color:${btnTextColor}; outline:none;text-decoration:none;" href="${body_section5_URL2}">${body_section5_text2}
+                                                                        </a>
+                                                                      </td> 
+                                                                      <td style="display: inline-block; height: 40px;" align="center"> 
+                                                                        <a href="${body_section5_URL2}"> 
+                                                                        <img src="https://explore.uw.edu/rs/131-AQO-225/images/arrow-${ctaArrow}.png" alt="" aria-hidden="true" /> 
+                                                                        </a> </td> 
                                                                     </tr> 
                                                                   </tbody> 
-                                                                </table> </td> 
+                                                                </table>
+                                                               
+                                                              </td> 
                                                             </tr> 
                                                             <tr> 
                                                               <td height="15" style="line-height:1px;font-size:1px;">&nbsp; </td> 
                                                             </tr> 
                                                           </tbody> 
                                                         </table>
-                                                      </div> </td> 
+                                                      </div> 
+                                                    </td> 
                                                   </tr> 
                                                 </tbody> 
                                               </table> </td> 
@@ -623,7 +642,7 @@
                                 <tbody> 
                                   <tr> 
                                     <td> 
-                                      <div class="mktoImg" id="body_section6_image" mktoname="560x300 Image">
+                                      <div class="mktoImg" id="body_section6_image" mktoname="560x300 Image" mktoImgLink="#ADDLINK">
                                         <img align="absbottom" class="full-width" src="https://explore.uw.edu/rs/131-AQO-225/images/Marketo-Template-images560x300-px.png" alt="Presentaion full width Image" width="560" border="0" />
                                       </div> </td> 
                                   </tr> 
@@ -644,7 +663,7 @@
                                   <tr> 
                                     <td valign="top" style="font-family:'Open Sans',arial,sans-serif,helvetica;font-size:15px;font-weight:bold;line-height:21px;color:#3d3d3d;vertical-align:top;text-align:left;"> 
                                       <div class="mktoText" id="body_section7_haeding" mktoname="Heading">
-                                        Product Presentation
+                                       Short Headline
                                       </div> </td> 
                                   </tr> 
                                   <tr> 
@@ -661,17 +680,25 @@
                                   </tr> 
                                   <tr> 
                                     <td align="left" valign="top"> 
-                                      <div class="mktoText" id="body_section7_button" mktoname="CTA Button">
+                                      <div class="mktoText" id="cta" mktoname="CTA-left">
                                         <table role="Presentaion3 Button" cellpadding="0" cellspacing="0" border="0" align="left"> 
                                           <tbody> 
                                             <tr> 
-                                              <td bgcolor="${btnColor}" style="background-color:${btnColor}; text-align: center; font-size: 14px; font-family:'Open Sans',Arial,Helvetica,sans-serif;text-decoration: none; border-radius:0px;padding:0 20px;font-weight:bold;color:${btnTextColor};line-height: 14px;height: 40px;" valign="middle"> <a aria-label="Presentation3 Button Link" style="text-decoration: none; 
-                                            color:${btnTextColor}; outline:none;text-decoration:none;" href="${body_section7_URL}">${body_section7_text}</a></td> 
-                                              <td style="display: inline-block; height: 40px;" align="center"> <a href="${body_section7_URL}"> <img src="https://explore.uw.edu/rs/131-AQO-225/images/arrow-${ctaArrow}.png" alt="" aria-hidden="true" /> </a> </td> 
+                                              <td bgcolor="${btnColor}" style="background-color:${btnColor}; text-align: center; font-size: 14px; font-family:'Open Sans',Arial,Helvetica,sans-serif;text-decoration: none; border-radius:0px;padding:0 20px;font-weight:bold;color:${btnTextColor};line-height: 14px;height: 40px;" valign="middle"> 
+                                                <a aria-label="Presentation3 Button Link" style="text-decoration: none; color:${btnTextColor}; outline:none;text-decoration:none;" href="${body_section7_URL}">
+                                                ${body_section7_text}
+                                                </a>
+                                              </td> 
+                                              <td style="display: inline-block; height: 40px;" align="center"> 
+                                                <a href="${body_section7_URL}"> 
+                                                <img src="https://explore.uw.edu/rs/131-AQO-225/images/arrow-${ctaArrow}.png" alt="" aria-hidden="true" />
+                                                </a> 
+                                              </td> 
                                             </tr> 
                                           </tbody> 
                                         </table>
-                                      </div> </td> 
+                                      </div>
+                                       </td> 
                                   </tr> 
                                   <tr> 
                                     <td height="${body_section7_btm_space}" style="line-height:1px;font-size:1px;">&nbsp; </td> 
@@ -693,7 +720,7 @@
                                   <tr> 
                                     <td valign="top" style="font-family:'Open Sans',arial,sans-serif,helvetica;font-size:18px;font-weight:bold;line-height:24px;color:#3d3d3d;vertical-align:top;text-align:center;text-transform:uppercase;"> 
                                       <div class="mktoText" id="body_section8_haeding" mktoname="Heading">
-                                        Key Bloggers
+                                        Lorem Ipsum
                                       </div> </td> 
                                   </tr> 
                                   <tr> 
@@ -720,7 +747,7 @@
                                                 <tbody> 
                                                   <tr> 
                                                     <td valign="top" style="vertical-align:top;"> 
-                                                      <div class="mktoImg" id="body_section8_image1" mktoname="Col-1 Image">
+                                                      <div class="mktoImg" id="body_section8_image1" mktoname="Col-1 Image" mktoImgLink="#ADDLINK">
                                                         <img align="absbottom" class="full-width" src="https://explore.uw.edu/rs/131-AQO-225/images/dubs-and-friends.jpg" alt="Blogger1 Image" border="0" width="166" />
                                                       </div> </td> 
                                                   </tr> 
@@ -758,7 +785,7 @@
                                                 <tbody> 
                                                   <tr> 
                                                     <td valign="top" style="vertical-align:top;"> 
-                                                      <div class="mktoImg" id="body_section8_image2" mktoname="Col-2 Image">
+                                                      <div class="mktoImg" id="body_section8_image2" mktoname="Col-2 Image" mktoImgLink="#ADDLINK">
                                                         <img align="absbottom" class="full-width" src="https://explore.uw.edu/rs/131-AQO-225/images/dubs-and-friends.jpg" alt="Blogger Image2" border="0" width="166" />
                                                       </div> </td> 
                                                   </tr> 
@@ -796,7 +823,7 @@
                                                 <tbody> 
                                                   <tr> 
                                                     <td valign="top" style="vertical-align:top;"> 
-                                                      <div class="mktoImg" id="body_section8_image3" mktoname="Col-3 Image">
+                                                      <div class="mktoImg" id="body_section8_image3" mktoname="Col-3 Image" mktoImgLink="#ADDLINK">
                                                         <img align="absbottom" class="full-width" src="https://explore.uw.edu/rs/131-AQO-225/images/dubs-and-friends.jpg" alt="Blogger Image3" border="0" width="166" />
                                                       </div> </td> 
                                                   </tr> 
@@ -860,9 +887,12 @@
                                   <tbody> 
                                     <tr> 
                                       <td align="center" bgcolor="#e8e3d3" class="text" style="font-size: 14px; font-family: 'Open Sans', arial, sans-serif; font-weight: 800; height: 40px; line-height: 14px;max-width: 300px; padding: 0 15px;">
-                                        <a href="${purplebkgCTAButtonURL}" target="_blank" style="color: #515050; text-decoration: none; border: 1px solid #e8e3d3; display: inline-block; text-transform: uppercase;">${purplebkgCTAButtonText}</a> </td> 
-                                      <td style="display: inline-block; height: 40px;" align="center"> <a href="${purplebkgCTAButtonURL}"> 
-                                        <img src="https://explore.uw.edu/rs/131-AQO-225/images/ArrowCap-gold.png" alt="" aria-hidden="true" /> </a> </td> 
+                                        <a href="${purplebkgCTAButtonURL}" target="_blank" style="color: #515050; text-decoration: none; border: 1px solid #e8e3d3; display: inline-block; text-transform: uppercase;">${purplebkgCTAButtonText}</a> 
+                                      </td> 
+                                      <td style="display: inline-block; height: 40px;" align="center"> 
+                                        <a href="${purplebkgCTAButtonURL}"> 
+                                        <img src="https://explore.uw.edu/rs/131-AQO-225/images/ArrowCap-gold.png" alt="" aria-hidden="true" /> 
+                                        </a> </td> 
                                     </tr> 
                                   </tbody> 
                                 </table> 
